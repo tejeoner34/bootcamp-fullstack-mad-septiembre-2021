@@ -1,7 +1,7 @@
 # bootcamp-fullstack-mad-septiembre-2021
 Main repository for fullstack exercises
 
-## Modelo para contribuir con el repo de neoland con github:
+## Modelo para contribuir en este repo
 
 1. Hacer un fork del este repositorio. [Tutorial](https://docs.github.com/es/get-started/quickstart/fork-a-repo)
 2. Hacer un clone del repositorio que ha aparecido en tu perfil
@@ -10,3 +10,7 @@ Main repository for fullstack exercises
 5. Subirlo a tu repositorio remoto (git add, commit & push)
 6. Enviar tus cambios al repositorio principal, es decir, hacer un pull request. [Tutorial](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork)
 7. Una vez te hayamos aceptado el pull request tendrás que actualizar tu fork (el repositorio de tu perfil enlazado con este). [Tutorial](https://docs.github.com/en/github/collaborating-with-pull-requests/working-with-forks/syncing-a-fork)
+
+## Materials
+
+1. [Git](./materials/1-GIT)
