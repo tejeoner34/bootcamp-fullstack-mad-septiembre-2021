@@ -78,43 +78,57 @@
         </ol>
 
         <p>Y ahora, para jugar a clickar cositas, van los inputs</p>
-            <p>Nombre</p>
-                <input type="text">
-            <p>Password</p>
-                <input type="password">
-            <p>Fecha de nacimiento</p>
-                <input type="date">
-            <p>Mail</p>
-                <input type="email">
-            <p>Género</p>
-                <input type="radio" name="checked">
-                <label for="Masculino">Masculino</label>
-                <input type="radio" name="checked">
-                <label for="Femenino">Femenino</label>
-                <input type="radio" name="checked">
-                <label for="NB">NB</label>
-            <p>Género</p>
-                <input type="checkbox" name="Masculino">
-                <label for="Masculino">Masculino</label>
-                <input type="checkbox" name="Femenino">
-                <label for="Femenino">Femenino</label>
-                <input type="checkbox" name="NB">
-                <label for="NB">NB</label>
-            <p>Selección de color</p>
-            <input type="color">
-            <p>Sube aquí tu foto</p>
-            <input type="file">
-            <p>¿Dónde naciste?</p>
-            <select name="Continentes">
-                <option value="">--Elige una</option>
-                <option value="África">África</option>
-                <option value="Europa">Europa</option>
-                <option value="Asia">Asia</option>
-                <option value="America del Sur">America del Sur</option>
-                <option value="America del norte">America del Norte</option>
-                <option value="Centro America">Centro América</option>
-                <option value="Antártica">Antártica</option>
-            </select>
+        
+
+            <form action="/my-handling-form-page" method="post">
+                <ul>
+                    <li> <label for="Nombre">Nombre</label>
+                        <input type="text">
+                    </li>
+                    <li> <label for="Password">Password</label>
+                        <input type="password">
+                    </li>
+                    <li>
+                        <label for="Fecha de nacimiento">Fecha de nacimiento</label>
+                        <input type="date">
+                    </li>
+                    <li> 
+                        <label for="email">E-mail</label>
+                        <input type="email">
+                    </li>
+                    <li>
+                        <label for="Género">Género</label>
+                        <input type="radio" name="checked">
+                        <label for="Masculino">Masculino</label>
+                        <input type="radio" name="checked">
+                        <label for="Femenino">Femenino</label>
+                        <input type="radio" name="checked">
+                        <label for="NB">NB</label>
+                    </li>
+                    <li>
+                        <label for="Color">Color favorito</label>
+                        <input type="color">
+                    </li>
+                    <li>
+                        <label for="Foto de perfil">Foto de perfil</label>
+                        <input type="file">
+                    </li>
+                    <li>
+                        <label for="Continente">En qué continente naciste</label>
+                        <select name="Continentes">
+                            <option value="">--Elige una</option>
+                            <option value="África">África</option>
+                            <option value="Europa">Europa</option>
+                            <option value="Asia">Asia</option>
+                            <option value="America del Sur">America del Sur</option>
+                            <option value="America del norte">America del Norte</option>
+                            <option value="Centro America">Centro América</option>
+                            <option value="Antártica">Antártica</option>
+                        </select>
+                    </li>
+                </ul>
+
+            </form>
 
     <p><a href="#top">INICIO</a></p>
     <p><a href="about-me.html">ABOUT ME</a></p>
