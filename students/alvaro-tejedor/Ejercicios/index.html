@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
     <title>Documento HTML</title>
 </head>
 <body>
@@ -56,39 +57,55 @@
             <td>2793 GB</td>
         </tr>
     </table>
-    <div class="input">
-    <ul>
-        <li><input type="text"></li> 
-        <li><input type="password"></li>
-        <li><input type="date"></li>
-        <li><input type="email"></li>
-        <div class="checkbox">
+
+    <div>
+        <form class="form">
+            <h2 class="titulo-form">Formulario</h2>
+            <input type="text" placeholder="Escribe tu nombre">
+            <input type="password" placeholder="Contraseña">
+            <input type="date">
+            <input type="email" placeholder="Escribir email">
+            <div class="input-label">
+                <label>Escoge el género</label>
+            </div>
+            <div class="checkbox">
             <label><input type="checkbox">Hombre</label>
             <label><input type="checkbox">Mujer</label>
-        </div>
-        <div class="radio-genero">
+            </div>
+            <div class="input-label">
+                <label>Escoge el género</label>
+            </div>
+            <div class="input-radio">
             <label><input type="radio" name="sexo">Hombre</label>
             <label><input type="radio" name="sexo">Mujer</label>
-        </div>
-        <li><input type="color"></li>
-        <li><input type="file"></li>
-        <li><label for="elegir-pais">Elige un país</label>
-        <select name="País">
-            <option hidden selected>Selecciona comunidad</option>
-            <optgroup label="España">
-                <option>Madrid</option>
-                <option>Andalucía</option>
-            </optgroup>
-            <optgroup label="Japón">
-                <option>Tokyo</option>
-                <option>Fukuoka</option>
-            </optgroup>
-        </select></li>
-        <li><button type="botton">Enviar</button></li>
-    </ul>
+            </div>
+            <div class="input-label">
+                <label>Escoge el color</label>
+            </div>
+            <input type="color">
+            <div class="input-label">
+                <label>Subir archivo</label>
+            </div>
+            <input type="file">
+            <div class="selector"><label for="elegir-pais">Elige un país</label>
+            <select name="País"></label>
+                <option hidden selected>Selecciona comunidad</option>
+                <optgroup label="España">
+                    <option>Madrid</option>
+                    <option>Andalucía</option>
+                </optgroup>
+                <optgroup label="Japón">
+                    <option>Tokyo</option>
+                    <option>Fukuoka</option>
+                </optgroup>
+            </select>
+            </div>
+            <button class="form-button">Enviar</button>
+
+        </form>
     </div>
     <div>
-        <a href="#inicio">Pincha para subir</a>
+        <p>Pincha <a href="pagina-presentacion.html" target="_blank">aquí</a> para ir a la presentación personal</p>
     </div>
 </body>
 </html>
