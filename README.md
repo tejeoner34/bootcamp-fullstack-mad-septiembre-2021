@@ -14,3 +14,4 @@ Main repository for fullstack exercises
 ## Materials
 
 1. [Git](./materials/1-GIT)
+2. [HTML](./materials/2-HTML)
