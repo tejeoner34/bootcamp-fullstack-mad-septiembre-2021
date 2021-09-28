@@ -27,64 +27,62 @@
     </div>
 
     <div>
-        <form>
+        <form id="usr-basic-info">
             <div>
-                <label for="name">What's your name?</label>
-                <input type="text" id="name" placeholder="Type here your name" />
+                <label for="usr-name">What's your name?</label>
+                <input type="text" id="usr-name" placeholder="Type here your name" />
             </div>
             <div>
-                <label for="password">What's your password?</label>
-                <input type="password" id="password" placeholder="Type here your password" />
+                <label for="usr-password">What's your password?</label>
+                <input type="password" id="usr-password" placeholder="Type here your password" />
             </div>
             <div>
-                <label for="email">What's your email?</label>
-                <input type="email" id="email" placeholder="Type here your email" />
+                <label for="usr-email">What's your email?</label>
+                <input type="email" id="usr-email" placeholder="Type here your email" />
             </div>
             <div>
-                <label for="date">Pick a date!</label>
-                <input type="date" id="date" />
+                <label for="usr-date">Pick a date!</label>
+                <input type="date" id="usr-date" />
             </div>
         </form>
     </div>
     <div>
         <p>Please pick a gender</p>
-        <div>
-            <form>
-                <label for="male">male</label>
-                <input type="checkbox" id="male" name="male" />
-                <label for="female">female</label>
-                <input type="checkbox" id="female" name="female" />
-                <label for="other">other</label>
-                <input type="checkbox" id="other" name="other" />
-            </form>
-        </div>
-    </div>
-    <div>
-        <form>
+        <form id="usr-gender-checkbox">
             <label for="male">male</label>
-            <input type="radio" id="male" name="radio" value="male"/>
+            <input type="checkbox" id="male" name="male" />
             <label for="female">female</label>
-            <input type="radio" id="female" name="radio" value="female"/>
+            <input type="checkbox" id="female" name="female" />
             <label for="other">other</label>
-            <input type="radio" id="other" name="radio" value="other"/>
+            <input type="checkbox" id="other" name="other" />
         </form>
     </div>
     <div>
-        <label for="color">Pick your favourite color!</label>
-        <form>
-            <input type="color" />
+        <form id="usr-gender-radio">
+            <label for="male">male</label>
+            <input type="radio" id="male" name="radio" value="male" />
+            <label for="female">female</label>
+            <input type="radio" id="female" name="radio" value="female" />
+            <label for="other">other</label>
+            <input type="radio" id="other" name="radio" value="other" />
         </form>
     </div>
     <div>
-        <label for="color">Upload a document from your computer!</label>
+        <label for="usr-color">Pick your favourite color!</label>
         <form>
-            <input type="file" />
+            <input type="color" id="usr-color" />
         </form>
     </div>
     <div>
-        <label for="Country">Choose your country and region of birth:</label>
+        <label for="usr-file">Upload a document from your computer!</label>
         <form>
-            <select name="Country" id="Country">
+            <input type="file" id="usr-file"/>
+        </form>
+    </div>
+    <div>
+        <label for="usr-country">Choose your country and region of birth:</label>
+        <form>
+            <select name="Country" id="usr-country">
                 <option value="">--Please choose an option--</option>
                 <optgroup label="Finland">
                     <option value="Oulu">Oulu</option>
