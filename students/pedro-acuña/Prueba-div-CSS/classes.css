@@ -1,0 +1,81 @@
+.div_1{
+    background-color: blue;
+    border-style: solid;
+    width: 150px;
+    height: 150px;
+    box-shadow:5px 10px gray;
+}
+
+
+.div_2{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(167,50,106,0.7460026246826856) 70%, rgba(0,212,255,1) 100%);
+    border-style: dotted;
+    box-shadow: 5px 5px 20px 5px darkslateblue, -5px -5px 20px 5px dodgerblue,
+    inset 0px 0px 10px 2px darkslategray, inset 0px 0px 20px 10px steelblue;;
+    width: 300px;
+    height: 100px;
+}
+
+.div_3{
+    width: 450px;
+    height: 450px;
+   
+    
+
+}
+.div_4{
+    position: relative;
+    
+    border-radius: 30%;
+    height: 100px;
+    width: 500px;
+    bottom: 0px;
+}
+.head{
+    top: 0px;
+    position: sticky;
+    background-color: grey;
+    width: 100%;
+}
+.texto_encima{
+    position: relative;
+    bottom: 50%;
+    left: 18%;
+    font-size: 24px;
+    
+    color: rgb(241, 4, 4);
+
+}
+
+
+.imagen{
+    
+    width: 450px;
+    height: 450px;
+}
+.texto_link{
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    bottom: 50%;
+
+}
+.background_main{
+    background-color: darkkhaki;
+}
+.background_footer{
+    position: relative;
+    background-color: darkred;
+    height: 100px;
+    width: 100%;
+    bottom: 0px;
+}
+.imagen_lg{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    left: 50%;
+    border-radius: 40px 40px 40px 40px;
+}
