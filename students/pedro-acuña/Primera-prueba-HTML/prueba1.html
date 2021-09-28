@@ -7,8 +7,8 @@
     <title>Document</title>
 </head>
 <body>
-    <a name="Grogu" id="Grogu"></a>
-    <h1>Grogu siendo adorable</h1>
+    
+    <h1 id ="Grogu">Grogu siendo adorable</h1>
     <img src="https://sm.ign.com/t/ign_latam/screenshot/default/babygrogu_tch1.2560.jpg" alt = "Grogu" width="600"/>
     <h2>Por qué deberías ver The Mandalorian</h2>
     <p><b>The Mandalorian</b> es una serie sobre el universo de <i>Star Wars</i> de estilo <u>Western.</u>
@@ -18,7 +18,7 @@
     <ul>
         <li><a href = "https://www.google.es/">Google</a> </li>
         <li><a href = "mailto: pedritociudad@hotmail.es">Email de contacto</a></li>
-        <li><a href= "tel:601244768">Teléfono de contacto</a></li>
+        <li><a href= "tel:605645693">Teléfono de contacto</a></li>
     </ul>
     <table style="text-align:center;" border ="2">
         
@@ -55,21 +55,24 @@
             <td>2793 GB</td>
         </tr>
     </table>
-    <form " method="post">
-    <p>Nombre:<input type ="text" required></p>
-    <p>Contraseña:<input type="password" required></p>
-    <p>Fecha de nacimiento: <input type="date" required></p>
-    <p>Email de contacto: <input type="email" required ></p>
-    <label for="genero femenino">Mujer:</label><input type="checkbox">
-    <label for="genero masculino">Hombre:</label><input type="checkbox">
+    <form  method="post">
+    <label for="Nombre"> Nombre</label>
+    <input type ="text" required id="Nombre">
+    <label for="Contraseña">Contraseña</label><input type="password" required id="Contraseña">
+    <label for="Birthdate">Fecha de nacimiento:</label> <input type="date" required id="Fecha de nacimiento">
+    <label for="email">Email de contacto</label><input type="email" required id="email" >
+    <label for="Mujer">Mujer:</label>
+    <input type="checkbox" id="Mujer">
+    <label for="Hombre">Hombre:</label>
+    <input type="checkbox" id="Hombre">
     <p>Elige tu género:</p>
         <input type="radio" id="Hombre" name= "Género" value="Hombre" checked>
         <label for= "Hombre">Hombre</label>
-        <input type="radio" id= "Mujer" name= "Género">
+        <input type="radio" id= "Mujer" name= "Género"/>
         <label for ="Mujer">Mujer</label>
-    <p>Elige un color:</p>
-    <input type="color">
-    <p>Sube un fichero: <input  type= "file"> </p>
+    <label for="color">Elige un color</label>
+    <input type="color" id="color">
+    <label for="fichero">Sube un fichero</label><input  type= "file" id="fichero"> 
     <p>País y ciudad de nacimiento:</p>
     <select name="Paises" id="Seleccion de paises">
         <option value="">--Please choose an option--</option>
@@ -101,7 +104,7 @@
         <li> Axel </li>
     </ol>
     <a href="#Grogu"> Volver al inicio</a>
-    <a href= "http://127.0.0.1:5500/personal.html"target="_blank">Visitamos a Pedro</a>
+    <a href= "./personal.html"target="_blank">Visitamos a Pedro</a>
 
 </body>
 </html>
