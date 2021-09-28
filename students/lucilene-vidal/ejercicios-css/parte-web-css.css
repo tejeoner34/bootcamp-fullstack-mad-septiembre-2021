@@ -1,0 +1,91 @@
+body nav{
+    position: sticky;
+    top: 0;
+}
+
+.divcontenedor
+#caja1{
+
+border:1px solid black;
+padding:5px;
+background:#408AFE;
+}
+ 
+.divA
+{
+
+border:1px solid black;
+width: 150px;
+height: 150px;
+margin:5px;
+padding:5px;
+background:#ffd517;
+-webkit-box-shadow: 9px 12px 11px 7px rgba(38,141,53,0.82); 
+box-shadow: 9px 12px 11px 7px rgba(38,141,53,0.82);
+}
+.divB
+{
+
+border:1px solid black;
+width: 300px;px;
+height: 100px;px;
+margin:5px;
+padding:5px;
+background:#ae00ff;
+-webkit-box-shadow: 7px -5px 10px 0px #4B0082, 11px -9px 10px 0px #0000FF, 16px -14px 10px 0px #00FF00, 20px -17px 10px 0px #FFFF00, 24px -19px 10px 0px #FF7F00, 27px -23px 10px 0px #FF0000, 9px 12px 11px 7px rgba(38,141,53,0); 
+box-shadow: 7px -5px 10px 0px #4B0082, 11px -9px 10px 0px #0000FF, 16px -14px 10px 0px #00FF00, 20px -17px 10px 0px #FFFF00, 24px -19px 10px 0px #FF7F00, 27px -23px 10px 0px #FF0000, 9px 12px 11px 7px rgba(38,141,53,0);
+}
+.divC 
+{
+ 
+    border:1px solid black;
+    width: 450px;px;
+    height: 450px;px;
+    margin:5px;
+    padding:5px;
+    background-image: url(mario-bros.png);
+
+    }
+.Frase
+{
+  text-align: center;  
+  font-size: 50px;
+  color:greenyellow;
+
+} 
+
+.Frase:hover {
+    color:rgb(0, 0, 0);  
+    font-size: 70px;
+}
+
+.piePagina
+{
+
+border-radius: 50%;
+width: 300px;
+height: 300px;
+background-image: url(logo-twitter.jpg);
+}
+
+.cabecera
+{
+
+position: sticky;   
+top: 0%; 
+}
+
+.footer
+{
+    
+background:#268D35;
+ 
+}
+
+.main
+{
+height: 100vh;    
+}
+
+
+
