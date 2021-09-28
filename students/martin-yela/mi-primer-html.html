@@ -15,8 +15,8 @@
     <h2>Mi primera lista</h2>
             <ul>
                 <li><a href="https://www.google.es">Ir a google</a></li>
-                <li><a href="mailto:martinyela@hotmail.com">Enviar un mail</a></li>
-                <li><a href="tel:+34628668246">Llamar por teléfono</a></li>
+                <li><a href="mailto:mail@hotmail.com">Enviar un mail</a></li>
+                <li><a href="tel:+34616642598">Llamar por teléfono</a></li>
             </ul>
     <h2>Ahora una tabla</h2>
             <table border="1">
@@ -57,18 +57,18 @@
                     <td>2793</td>
                 </tr>
             </table>
-    <ul>
-        <li><input type="text" value="Escribe tu nombre"></li>
-        <li><input type="password" value="Escribe la contraseña"></li>
-        <li><input type="date"></li>
-        <li><input type="email" value="Escribe tu mail"></li>
-        <li><label><input type="checkbox" value="Hombre">Hombre</label></li>
-        <li><label><input type="checkbox" value="Mujer">Mujer</label></li>
-        <li><label><input type="radio" name="sexo" value="Hombre">Hombre (radio)</label></li>
-        <li><label><input type="radio" name="sexo" value="Mujer">Mujer (radio)</label></li>
-        <li><input type="color"></li>
-        <li><input type="file"></li>
-        <li><select name="Select">
+    <form action="ACA-IRIA-LA-URL" method="ACA-GET-O-POST">
+        <input type="text" placeholder="Escribe tu nombre" value="nombre">
+        <input type="password" placeholder="Escribe la contraseña" value="contrasena">
+        <input type="date">
+        <input type="email" placeholder="Escribe tu mail" value="mail">
+        <label for="checkH"><input type="checkbox" value="Hombre" id="checkH">Hombre</label>
+        <label for="checkM"><input type="checkbox" value="Mujer" id="checkH">Mujer</label>
+        <label for="radioH"><input type="radio" name="sexo" value="Hombre"id="radioH">Hombre (radio)</label>
+        <label for="radioM"><input type="radio" name="sexo" value="Mujer" id="radioM">Mujer (radio)</label>
+        <input type="color">
+        <input type="file">
+        <select name="Select">
             <option hidden selected>Elige comunidad</option>
             <optgroup label="País">
                 <option value="Argentina">Argentina</option>
@@ -80,10 +80,10 @@
                 <option value="Madrid">MAdrid</option>
                 <option value="Barcelona">BS AS</option>
             </optgroup>
-        </select></li>
-
-        <li><a href="#inicio">Volver a inicio</a></li>
-    </ul>
+        </select>
+            <a href="#inicio">Volver a inicio</a>
+        </ul>
+    </form>
     <h2>Link a la otra página</h2>
     <a href="presentacion-personal.html">Ir a la otra página</a>
 </body>
