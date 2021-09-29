@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My personal site</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -14,35 +17,44 @@
         <div class="logo-div">
             <img class="main-logo" src="./assets/logo2.png"></img>
         </div>
-        <div>
-            <ul class="menu-bar">
+        <div class="menu-bar">
+            <ul class="menu-bar-list">
                 <li><a href="#">HOME</a></li>
                 <li><a href="#">ABOUT</a></li>
                 <li><a href="#">CONTACT</a></li>
             </ul>
         </div>
-        <nav>
-            <ul class="nav-bar">
-                <li><a href="https://web.dev/learn/css/">CSS practical guide</a></li>
-                <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">CSS flexbox guide</a></li>
-                <li><a href="https://stackoverflow.com/questions">Stack Overflow</a></li>
-                <li><a href="https://codepen.io">Codepen</a></li>
-                <li><a href="https://github.com/TheGuzman/bootcamp-fullstack-mad-septiembre-2021">My Github</a></li>
-                <li><a href="https://www.noisli.com/">Noisli</a></li>
-            </ul>
-        </nav>
 
     </header>
-    <main>
-        <article>
-            <img class="art-img"
-                src="https://images.pexels.com/photos/416728/pexels-photo-416728.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"></img>
-        </article>
-        <article>
-            <img class="art-img"
-                src="https://images.pexels.com/photos/7223461/pexels-photo-7223461.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"></img>
-        </article>
-
+    <main class="content-container">
+        <div class="nav-container">
+            <nav class="nav-bar">
+                <ul class="nav-bar-list">
+                    <li><a href="https://web.dev/learn/css/">CSS practical guide</a></li>
+                    <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">CSS flexbox guide</a></li>
+                    <li><a href="https://stackoverflow.com/questions">Stack Overflow</a></li>
+                    <li><a href="https://codepen.io">Codepen</a></li>
+                    <li><a href="https://github.com/TheGuzman/bootcamp-fullstack-mad-septiembre-2021">My Github</a></li>
+                    <li><a href="https://www.noisli.com/">Noisli</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="parent-article-container">
+            <article class="art">
+                <img class="art-img"
+                    src="https://images.pexels.com/photos/416728/pexels-photo-416728.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"></img>
+                <h2 class="tittle">This is the Finnish Lapland</h2>
+                <p class="description">Description</p>
+                <button class="more-info">More info</button>
+            </article>
+            <article class="art">
+                <img class="art-img"
+                    src="https://images.pexels.com/photos/7223461/pexels-photo-7223461.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"></img>
+                <h2 class="tittle">These are the Northern Lights</h2>
+                <p class="description">Description</p>
+                <button class="more-info">More info</button>
+            </article>
+        </div>
     </main>
     <footer>
 
