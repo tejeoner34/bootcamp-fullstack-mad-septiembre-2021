@@ -1,0 +1,48 @@
+.logo{
+    width: 7em;
+    height: 7em;
+    display: inline;
+}
+.navhome{
+    
+        display: inline;
+        margin-right: 20%;
+    
+}
+.navhome_in{
+    display: inline;
+}
+.navlink{
+    width: 10em;
+    height: 10em;
+    background-color: cornflowerblue;
+}
+.navlink_in{
+    display: block;
+}
+.displayf{
+    display: flex;
+    background-color: burlywood;
+}
+main {
+    display: flex;
+    background-color: darkgray;
+}
+
+.articulos{
+    background-color: rgb(230, 216, 216);
+   height: 40em;
+   width: 20em;
+   display: flex;
+   flex-direction: column;
+   align-items: center
+ 
+  
+ 
+}
+.imagen{
+    
+    width: 15em;
+    height: 15em;
+    
+}
