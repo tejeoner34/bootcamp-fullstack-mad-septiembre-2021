@@ -22,8 +22,8 @@
     -webkit-clip-path:polygon(0% 38.31%, 50% 0%,100% 38.31%,80.86% 100%,19.14% 100%);
 }
 .segundo-div {
-    height: 300px;
-    width: 100px;
+    height: 100px;
+    width: 300px;
     border: 10px double black;
     background-image: linear-gradient(blue, green);
 }

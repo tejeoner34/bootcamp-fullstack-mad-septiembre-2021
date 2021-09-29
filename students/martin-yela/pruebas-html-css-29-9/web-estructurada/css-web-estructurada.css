@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cajaHeader {
+    background-color: #316B83;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    height: 100px;
+}
+.cajaNav {
+    background-color: #6D8299;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cajaMain {
+    background-color: #8CA1A5;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.cajaFooter {
+    background-color: #D5BFBF;
+}
+a {
+    text-decoration: none;
+    color: rgb(70, 67, 104);
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.enlace {
+    margin: 15px;
+}
+.main-nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+.final-text {
+    text-align: center;
+    font-size: 12px;
+}
+.fab {
+    color: #316B83;
+}
+.logo-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px 10px;
+}
+.main-one {
+    width: 80%;
+    margin-top: 20px;
+}
+.goal {
+    width: 30%;
+    margin-right: 10px;
+}
+.goal-picture {
+    display: flex;
+    justify-content: center;
+}
+.link-goles {
+    display: flex;
+    justify-content: space-around;
+}
+.notice {
+    text-align: center;
+    margin-top: 10px;
+}
+.letra-gol {
+    font-size: 18px;
+}
+hr {
+    color: #316B83;
+    margin-top: 10px;
+}
+.enlace-interes {
+    color: rgb(20, 15, 63);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p {
+    
+}
