@@ -1,0 +1,21 @@
+.main-container{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.menu-bar{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+.nav-bar{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    background-color: blanchedalmond;
+}
+
+.art-img{
+
+}
