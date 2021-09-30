@@ -10,6 +10,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
+    width: 100%;
 }
 .logo{
     height: 100px;
@@ -31,6 +32,8 @@
 }
 .cajaFooter {
     background-color: #D5BFBF;
+    align-self: flex-end;
+    width: 100%;
 }
 a {
     text-decoration: none;
@@ -44,6 +47,7 @@ a {
 .main-nav {
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
 }
 .final-text {
     text-align: center;
@@ -51,6 +55,13 @@ a {
 }
 .fab {
     color: #316B83;
+    transition: font-size 1s, color 1s;
+}
+.fab:hover {
+    height: 25px;
+    font-size: 150px;
+    color: blue;
+
 }
 .logo-footer {
     display: flex;
@@ -62,17 +73,14 @@ a {
     width: 80%;
     margin-top: 20px;
 }
-.goal {
-    width: 30%;
-    margin-right: 10px;
-}
-.goal-picture {
+.image-link {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
-.link-goles {
-    display: flex;
-    justify-content: space-around;
+.goal {
+    width: 275px;
+    margin-right: 10px;
 }
 .notice {
     text-align: center;
@@ -89,6 +97,54 @@ hr {
     color: rgb(20, 15, 63);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-p {
+.goal-picture {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media only screen and (max-width: 685px){
+    a {
+        font-size: 18px;
+    }
+    .enlace {
+        margin: 12px;
+    }
+    .enlace-interes {
+        font-size: 14px;
+    }
+    
+}
+@media only screen and (max-width: 500px){
+    a {
+        font-size: 15px;
+    }
+    .enlace {
+        margin: 9px;
+    }
+    .goal {
+        width: 225px;
+        margin-right: 8px;
+    }
+    .enlace-interes {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    a {
+        font-size: 13px;
+    }
+    .enlace {
+        margin: 6px;
+    }
+    .goal {
+        width: 180px;
+        margin-right: 6px;
+    }
+    .enlace-interes {
+        font-size: 10px;
+    }
+
     
 }
