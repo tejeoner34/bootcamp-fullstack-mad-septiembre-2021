@@ -2,7 +2,23 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+.page-container{
+min-height: 100vh;
+}
+.aside-container{
+min-height: 100vh;
+}
+
 .main-container{
+min-height: 100vh;
+}
+.footer-container{
+min-height: 100vh;
+}
+
+
+/* .main-container{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -36,29 +52,32 @@
     background-color: #f6f5f5;
     display: flex;
     flex-direction:row;
-    justify-content: space-between;
-}
-.nav-bar{
-    align-self: flex-start;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-}
-.nav-bar *{
-    margin-top: 20px; 
-    color: #637DA2;
-}
-.nav-bar-list{
-list-style-type: none;
 }
 
-.parent-article-container{
+.nav-bar{
+position: left;
+}
+.nav-bar-list{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    margin-right:300px;
+    margin-top: 20px; 
+    align-self: flex-start;
+    list-style-type: none;
 }
+.nav-bar-list *{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #637DA2;
+}
+
+article-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
 .art-img{
     padding: 10px 10px 0px 10px;
     width:50vw;
@@ -72,8 +91,8 @@ list-style-type: none;
     margin-bottom: 3px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
     align-items:center;
+    justify-content: center;
 }    
 .description{
     font-family: 'Roboto';
@@ -85,7 +104,8 @@ list-style-type: none;
     font-size: 40px;
     font-weight: 400;
     color:#7A94B9;
-    margin-top:0%;
+    margin-top:3px;
+    margin-bottom: 1px;
 }
 .tittle .description{
     display: flex;
@@ -93,6 +113,27 @@ list-style-type: none;
     justify-content: center;
 }
 
-.more-info{
-
+.description{
+    width: 598px;
+    justify-self: center;
 }
+.more-info{
+background-color: #5199DF;
+color:cornsilk;
+font-family: 'Roboto';
+font-size: 14px;
+border-radius: 3px;
+padding: 2px;
+margin-bottom: 3px;
+}
+
+.icons-container{
+    background-color: #4b89ac7F;
+    display: flex;
+}
+
+.rights-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+} */

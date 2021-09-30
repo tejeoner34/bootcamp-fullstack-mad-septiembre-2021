@@ -12,8 +12,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
 </head>
 
-<body>
-    <header class="main-container">
+<body class="page-container">
+    <header class="header-container">
         <div class="logo-div">
             <img class="main-logo" src="./assets/logo2.png"></img>
         </div>
@@ -24,40 +24,59 @@
                 <li><a href="#">CONTACT</a></li>
             </ul>
         </div>
-
     </header>
-    <main class="content-container">
-        <div class="nav-container">
-            <nav class="nav-bar">
-                <ul class="nav-bar-list">
-                    <li><a href="https://web.dev/learn/css/">CSS practical guide</a></li>
-                    <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">CSS flexbox guide</a></li>
-                    <li><a href="https://stackoverflow.com/questions">Stack Overflow</a></li>
-                    <li><a href="https://codepen.io">Codepen</a></li>
-                    <li><a href="https://github.com/TheGuzman/bootcamp-fullstack-mad-septiembre-2021">My Github</a></li>
-                    <li><a href="https://www.noisli.com/">Noisli</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div class="parent-article-container">
+    <aside class="aside-container">
+        <nav class="nav-bar">
+            <ul class="nav-bar-list">
+                <li><a href="https://web.dev/learn/css/">CSS practical guide</a></li>
+                <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">CSS flexbox guide</a></li>
+                <li><a href="https://stackoverflow.com/questions">Stack Overflow</a></li>
+                <li><a href="https://codepen.io">Codepen</a></li>
+                <li><a href="https://github.com/TheGuzman/bootcamp-fullstack-mad-septiembre-2021">My Github</a></li>
+                <li><a href="https://www.noisli.com/">Noisli</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <main class="main-container">
+        <div class="article-container">
             <article class="art">
                 <img class="art-img"
                     src="https://images.pexels.com/photos/416728/pexels-photo-416728.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"></img>
                 <h2 class="tittle">This is the Finnish Lapland</h2>
-                <p class="description">Description</p>
+                <p class="description">The northern most part of Finland, Lapland, is the magical arctic region full
+                    of contrasts. In fact, contrasts are a key factor in the allure of Lapland where 24-hour
+                    sunlight in the summer replaces the dark winter days filled with Northern Lights. </p>
                 <button class="more-info">More info</button>
             </article>
             <article class="art">
                 <img class="art-img"
                     src="https://images.pexels.com/photos/7223461/pexels-photo-7223461.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"></img>
                 <h2 class="tittle">These are the Northern Lights</h2>
-                <p class="description">Description</p>
+                <p class="description">The bright dancing lights of the aurora are actually collisions between
+                    electrically charged particles from the sun that enter the earth's atmosphere. The lights are
+                    seen above the magnetic poles of the northern and southern hemispheres. They are known as
+                    'Aurora borealis' in the north and 'Aurora australis' in the south..
+                    Auroral displays appear in many colours although pale green and pink are the most common. Shades
+                    of red, yellow, green, blue, and violet have been reported. The lights appear in many forms from
+                    patches or scattered clouds of light to streamers, arcs, rippling curtains or shooting rays that
+                    light up the sky with an eerie glow.
+                </p>
                 <button class="more-info">More info</button>
             </article>
         </div>
     </main>
-    <footer>
-
+    <footer class="footer-container">
+        <div class="icons-container">
+            <div class="icon 1"></div>
+            <div class="icon 2"></div>
+            <div class="icon 3"></div>
+            <div class="icon 4"></div>
+            <div class="icon 5"></div>
+        </div>
+        <div class="rights-container">
+            <p class="rights-reserved">2021 ©My personal site. All rights reserved</p>
+        </div>
     </footer>
 
 </body>
