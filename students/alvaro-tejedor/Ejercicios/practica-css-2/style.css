@@ -1,0 +1,91 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contenedor-flex {
+    display: flex;
+    flex: row;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+
+}
+
+.flex-item {
+    border: solid 2px;
+    margin: 30px;
+    width: 350px;
+    height: 350px;
+    color: white;
+    font-size: 6em;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.primero {
+    background: red;
+    order: 1;
+    flex-grow: 1;
+}
+
+.segundo {
+    background: yellow;
+    order: 2;
+
+}
+.tercero {
+    background: orange;
+    order: 3;
+
+}
+.cuarto {
+    background: green;
+    order: 4;
+
+}
+.quinto {
+    background: purple;
+    order: 5;
+
+}
+.sexto {
+    background: pink;
+    order: 6;
+
+}
+.septimo {
+    background: black;
+    order: 7;
+
+}
+.octavo {
+    background: blue;
+    order: 8;
+
+}
+.noveno {
+    background: darkgoldenrod;
+    order: 9;
+
+}
+.decimo {
+    background: darkgray;
+    order: 10;
+
+}
+
+
+@media(max-width:430px) {
+    .flex-item {
+        width: 150px;
+        height: 150px;
+        margin: 20px;
+    }
+}
