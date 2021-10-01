@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+::-webkit-input-placeholder {
+    font-style: italic;
+}
+.body__tittle{
+    margin-bottom: 1em;
+}
+.form__email:valid{
+    border: solid 1em green;
+    outline-color: green;
+    }
+.form__email:invalid{
+    border: solid 1em red;
+    outline-color: red;
+    }
+.form__email:focus {
+  border: solid 1em orange;
+  outline-color: orange;
+    }
+.form__email:active{
+    border: solid 1em orange;
+    outline-color: orange;
+    }
+.form__email:hover::-webkit-input-placeholder{
+    background-color: black;
+    color: white;
+}
+
