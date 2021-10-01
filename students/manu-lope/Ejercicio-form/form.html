@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles-form.css">
+    <title>Document</title>
+</head>
+<body class="body__style">
+    <main class="main__style">
+    <form>
+        <label for="email">MAIL</label>
+        <input class="input__style" type="email" id="email" pattern=".+com .+es" placeholder="Pon un email válido"/>
+        <p class="p__style" id="emailinfo">Si tu email es válido, verás un borde verde</p>
+        <input class="button__style" type="submit" value="validar">
+    </form>
+    </main>
+</body>
+</html>
+
+
+<!-- Debemos crear un formulario con un label que indique textualmente que vamos a validar lo que se introduzca.
+Crearemos un input de tipo email que debe tener los siguientes efectos:
+Cuando el usuario pase el ratón sobre el formulario se cambiará el fondo del cuadro del input a negro y el color de letra a blanco.
+Cuando el usuario haga click para escribir en el input el borde cambiará a color naranja. (darle un grosor que se aprecie fácilmente el cambio)
+Cuando el usuario haga click en el botón de “validar”, si el contenido que ha introducido es una dirección correcta de email y que acabe en .com el borde del input se pondrá verde, si no cumple el requisito el borde se pondrá en rojo.
+El formulario debe tener un input de tipo submit que es el botón de “Validar” -->
+
