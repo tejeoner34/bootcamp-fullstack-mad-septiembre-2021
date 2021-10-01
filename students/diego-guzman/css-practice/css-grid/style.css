@@ -1,3 +1,75 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+
+}
 .page__container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas: 
+    "header header header header"
+    "nav main main main"
+    "nav main main main"
+    "nav main main main"
+    "nav main main main"
+    "footer footer footer footer";
+}
+
+.header__container {
+    grid-area: header;
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "main__logo menu-bar__container";
+  }
+
+.menu-bar__container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    ". item item item .";
+}
+/* .menu-bar__container > li{
+    grid-area: item;
+} */
+
+.menu__bar--item{
+    grid-area: menu-bar__list--item;
+  }
+
+  .main__container {
+    grid-area: main;
+  }
+  .aside__container {
+    grid-area: nav;
+  }
+  .footer__container {
+    grid-area: footer;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(2 1fr);
+    grid-template-areas: 
+    ". Facebook Twitter Instagram Pintersest Youtube ."
+    ". rights-reserved rights-reserved rights-reserved rights-reserved rights-reserved .";
+  }
+
+.rights-reserved{
+    grid-area: rights-reserved;
+}
+.logo{
+    height: 100%;
+    width: auto;
+    border-radius: 50%;
+}
+.Facebook{
+    grid-area: Facebook;
+    background-image: url(/css-practice/css-grid/assets/facebook.png);
     
 }
+
+

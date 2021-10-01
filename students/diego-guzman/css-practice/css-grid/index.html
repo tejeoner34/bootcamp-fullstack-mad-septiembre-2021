@@ -12,26 +12,27 @@
 <body class="page__container">
     <header class="header__container">
         <img class="main__logo" src="./assets/logo.png"></img>
-        <ul class="menu__bar__list">
-            <li><a class="menu__item" href="#">HOME</a></li>
-            <li><a class="menu__item" href="#">ABOUT</a></li>
-            <li><a class="menu__item" href="#">CONTACT</a></li>
+        <!-- Add selector in CSS to select all children  -->
+        <ul class="menu-bar__container"> 
+            <li><a class="menu-bar__list--item" href="#">HOME</a></li>
+            <li><a class="menu-bar__list--item" href="#">ABOUT</a></li>
+            <li><a class="menu-bar__list--item" href="#">CONTACT</a></li>
         </ul>
     </header>
-    <aside class="aside-container">
-        <nav class="nav-bar">
-            <ul class="nav-bar-list">
-                <li><a class="nav-item" href="">Link 1</a></li>
-                <li><a class="nav-item" href="">Link 2</a></li>
-                <li><a class="nav-item" href="">Link 3</a></li>
-                <li><a class="nav-item" href="">Link 4</a></li>
-                <li><a class="nav-item" href="">Link 5</a></li>
-                <li><a class="nav-item" href="">Link 6</a></li>
+    <aside class="aside__container">
+        <nav class="nav-bar__container">
+            <ul class="nav-bar__container--list">
+                <li><a class="nav-bar__list--item" href="">Link 1</a></li>
+                <li><a class="nav-bar__list--item" href="">Link 2</a></li>
+                <li><a class="nav-bar__list--item" href="">Link 3</a></li>
+                <li><a class="nav-bar__list--item" href="">Link 4</a></li>
+                <li><a class="nav-bar__list--item" href="">Link 5</a></li>
+                <li><a class="nav-bar__list--item" href="">Link 6</a></li>
             </ul>
         </nav>
     </aside>
-    <main class="main-container">
-        <div class="article-container">
+    <main class="main__container">
+        <div class="article__container">
             <article class="art">
                 <img class="art-img"
                     src=""></img>
@@ -52,6 +53,14 @@
             </article>
         </div>
     </main>
+    <footer class="footer__container">
+            <div class="logo Facebook"> </div>
+            <div class="logo Twitter"> </div>
+            <div class="logo Instagram"> </div>
+            <div class="logo Pinsterest"> </div>
+            <div class="logo Youtube"> </div>
+        <p class="rights-reserved">2021 © CSS Grid. All rights reserved</p>
+    </footer>
 </body>
 
 </html>
