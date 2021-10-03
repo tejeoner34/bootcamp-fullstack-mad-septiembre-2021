@@ -6,6 +6,7 @@
 }
 .page__container{
     height: 100vh;
+    /* position: relative; */
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(6, 1fr);
@@ -16,6 +17,7 @@
     "nav main main main"
     "nav main main main"
     "footer footer footer footer";
+    font-family: 'Roboto';
 }
 
 .header__container {
@@ -26,6 +28,7 @@
     grid-template-areas: 
     "main__logo menu-bar__container";
     align-items: center;
+    background-color:rgba(2, 50, 121);
   }
 
 .menu-bar__container{
@@ -35,7 +38,6 @@
     grid-template-areas: 
     ". list-item list-item list-item .";
 }
-
 .menu-bar__list{
     grid-area: list-item;
     display: grid;
@@ -43,33 +45,109 @@
     grid-template-areas: 
     "item1 item2 item3";
   }
-  .menu-bar__list--item-1{
+  .menu-bar__list > *{
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 800;
+    text-decoration: none;
+  }
+
+.menu-bar__list--item-1{
     grid-area: item1;
     justify-self: center;
   }
-  .menu-bar__list--item-2{
+.menu-bar__list--item-2{
     grid-area: item2;
     justify-self: center;
   }
-  .menu-bar__list--item-3{
+.menu-bar__list--item-3{
     grid-area: item3;
     justify-self: center;
   }
 
-  .main__container {
+.main__container {
     grid-area: main;
   }
-  .aside__container {
-    grid-area: nav;
+.main__tittle{
+  margin: 2rem 0rem;
+  font-size: 2.5rem;
+}
+
+.main__logo{
+  padding: 2em 5.1em;
+  background-color: white;
+}
+
+.art > *{
+    width: 100vh;
+    text-align: center;
   }
-  .footer__container {
-    grid-area: footer;
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: repeat(2 1fr);
-    grid-template-areas: 
-    ". Facebook Twitter Instagram Pinterest Youtube ."
-    ". rights-reserved rights-reserved rights-reserved rights-reserved rights-reserved .";
+
+.art-img{
+  border-radius: 0.6em;
+}
+
+.art-txt > *{
+  font-family: 'Roboto';
+  }
+
+.art__tittle{
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-style: italic;
+    margin-bottom: 1.2rem;
+    padding: 0.6rem 0rem; 
+    border-bottom: solid 2px black;
+  }
+.art__description{
+  font-size: 1.1rem;
+  margin-bottom: 0.8em;
+}
+
+.more-info{
+  background-color: #023279dc;
+  font-size: 1.2rem;
+  width: fit-content;
+  padding: 0.2em 0.6em;
+  border-radius: 0.6em;
+  border: none;
+  color: white;
+  margin-bottom: 1.3em;
+}
+
+.aside__container {
+    grid-area: nav;
+    background-color: #023279;
+    border-radius: 1em;
+    width: auto;
+    height: 72%;
+    margin: 6.8rem 2rem;
+    position: sticky;
+    top: 2rem;
+    
+  }
+.nav-bar__container--list > li{
+  margin: 2rem;
+  list-style-type: none;
+  font-weight: 600;
+}
+
+.nav-bar__list--item{
+color: white;
+}
+
+
+.footer__container {
+  /* position: absolute;
+  bottom: 0%;
+  width: 100%; */
+  grid-area: footer;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(2 1fr);
+  grid-template-areas: 
+  ". Facebook Twitter Instagram Pinterest Youtube ."
+  ". rights-reserved rights-reserved rights-reserved rights-reserved rights-reserved .";
   }
 
 .rights-reserved{
@@ -109,7 +187,4 @@
   grid-area: Youtube;
   background-image: url(/css-practice/css-grid/assets/youtube.png);
   background-size: 80%;
-}
-
-
-
+} 
