@@ -4,11 +4,10 @@
     box-sizing: border-box;
 }
 .page__container{
-    height: 100vh;
-    /* position: relative; */
+    min-height: 100vh;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(6, 1fr auto . . . 1fr);
+    grid-template-rows: repeat(6, 7% auto auto auto auto 5%);
     grid-template-areas: 
     "header header header header"
     "nav main main main"
@@ -118,12 +117,14 @@
     background-color: #023279;
     border-radius: 1em;
     width: auto;
-    height: 72%;
-    margin: 6.8rem 2rem;
+    height: 20%;
+    margin: 6.8rem 2rem 0rem 2rem;
     position: sticky;
     top: 2rem;
     
   }
+
+
 .nav-bar__container--list > li{
   margin: 2rem;
   list-style-type: none;
@@ -136,9 +137,6 @@ color: white;
 
 
 .footer__container {
-  /* position: absolute;
-  bottom: 0%;
-  width: 100%; */
   grid-area: footer;
   display: grid;
   grid-template-columns: repeat(7, 1fr);
@@ -161,28 +159,27 @@ color: white;
     background-size: cover;
     background-repeat: no-repeat;
     justify-self: center;
-    
 }
 .Facebook{
     grid-area: Facebook;
-    background-image: url(/css-practice/css-grid/assets/facebook.png);
+    background-image: url(/assets/facebook.png);
 }
 .Twitter{
   grid-area: Twitter;
-  background-image: url(/css-practice/css-grid/assets/twitter.png);
+  background-image: url(/assets/twitter.png);
 }
 
 .Instagram{
   grid-area: Instagram;
-  background-image: url(/css-practice/css-grid/assets/Instagram.png);
+  background-image: url(/assets/instagram.png);
   background-size: 80%;
 }
 .Pinterest{
   grid-area: Pinterest;
-  background-image: url(/css-practice/css-grid/assets/pinterest.png);
+  background-image: url(/assets/pinterest.png);
 }
 .Youtube{
   grid-area: Youtube;
-  background-image: url(/css-practice/css-grid/assets/youtube.png);
+  background-image: url(/assets/youtube.png);
   background-size: 80%;
 } 
