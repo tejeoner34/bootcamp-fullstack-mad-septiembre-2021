@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 4rem;
+}
+.body-container{
+}
+.div-container{
+width: 100%;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+row-gap: 10px;
+column-gap: 10px;
+
+}
+
+.div-size{
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content:space-around;
+}
+.div-one{
+    background-color: #02A19E;
+    /* order: 8; */
+}
+.div-two{
+    background-color: #2FF7CB;
+    /* order: 4; */
+}
+.div-three{
+    background-color: #01615F;
+    /* order: 7; */
+}
+.div-four{
+    background-color: #F7BC2F;
+    /* order: 0; */
+}
+.div-five{
+    background-color: #02E0DD;
+    /* order:2; */
+}
+.div-six{
+    background-color:#01C7C5;
+    /* order: 6; */
+}
+.div-seven{
+    background-color: rgba(0, 0, 255, 0.3) ;
+    /* order: 1; */
+}
+.div-eight{
+    background-color: rgba(255, 2, 100, 0.3);
+    /* order: 5; */
+}
+.div-nine{
+    background-color:rgba(253, 10, 80, 1);
+    /* order: 3; */
+}
+.div-ten{
+    background-color: #A14F4D;
+    /* order: 9; */
+}
