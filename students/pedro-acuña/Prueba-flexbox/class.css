@@ -1,0 +1,55 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.div{
+    display: flex;
+    width: 350px;
+    height: 350px;
+    font-size: 5em;
+    align-items: center;
+    justify-content: center;
+}
+
+.color1{
+    background-color: #7e3f49;
+}
+.color2{
+    background-color: #a88b49;
+}
+.color3{
+    background-color: #4a8b49;
+}
+.color4{
+    background-color: #4a607c;
+}
+.color5{
+    background-color: #8a607c;
+}
+.color6{
+    background-color: rgb(133, 148, 161);
+}
+.color7{
+    background-color: rgb(182, 76, 161);
+}
+.color8{
+    background-color: rgb(182, 187, 200);
+}
+.color9{
+    background-color: rgb(69, 10, 255);
+}
+.color10{
+    background-color: rgb(255, 138, 44);
+}
+@media(max-width:500px){
+    .container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+       width: 300px;
+       height: 300px;
+    }
+
+}
