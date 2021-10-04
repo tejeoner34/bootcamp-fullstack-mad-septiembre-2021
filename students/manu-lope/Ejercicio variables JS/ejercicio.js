@@ -23,10 +23,10 @@ y seguidos de un símbolo '=' el resultado.
 // let resultadoMulti = toNumberEntrada1*toNumberEntrada2;
 // let resultadoDivide = toNumberEntrada1/toNumberEntrada2;
 
-// document.write('<div class="div__style"><p class="p__style">' + resultadoSuma + '</p></div>');
-// document.write('<div class="div__style"><p class="p__style">' + resultadoResta + '</p></div>');
-// document.write('<div class="div__style"><p class="p__style">' + resultadoMulti + '</p></div>');
-// document.write('<div class="div__style"><p class="p__style">' + resultadoDivide + '</p></div>');
+// document.write('<div class="div__style"><p>' + resultadoSuma + '</p></div>');
+// document.write('<div class="div__style"><p>' + resultadoResta + '</p></div>');
+// document.write('<div class="div__style"><p>' + resultadoMulti + '</p></div>');
+// document.write('<div class="div__style"><p>' + resultadoDivide + '</p></div>');
 
 
 // SEGUNDO ENUNCIADO
@@ -46,32 +46,34 @@ y seguidos de un símbolo '=' el resultado.
 
 // document.write('<div class="div__style"><p class="p__style">' + number + 'ºC son '  + toFh + 'F </p></div>');
 
-// /* (0 °C × 1.8) + 32 = 32 °F
-//  */
 
 //CUARTO ENUNCIADO
 
-    // let userString1 = prompt('Introduce texto');
-    // let userString2 = prompt('Otro poco más');
+// let userString1 = prompt('Introduce texto');
+// let userString2 = prompt('Otro poco más');
 
-    // let stringFinal = userString1+userString2;
-    // let resultado = stringFinal.length;
+// let stringFinal = userString1+userString2;
+// let resultado = stringFinal.length;
 
-    // document.write('<body class="body__style"></body><div class="div__style"><p class="p__style">' + resultado + '</p></div></body>');
+// document.write('<body class="body__style"></body><div class="div__style"><p class="p__style">' + resultado + '</p></div></body>');
 
 // QUINTO ENUNCIADO
 
-let userEntrada1 = prompt('Introduce un número');
-let userEntrada2 = prompt('Dame otro más')
-let toNumberEntrada1 = parseFloat(userEntrada1);
-let toNumberEntrada2 = parseFloat (userEntrada2);
+// let userEntrada1 = prompt('Introduce un número');
+// let userEntrada2 = prompt('Pon otro más')
+// console.log(typeof userEntrada1);
+// console.log(typeof userEntrada2);
+// let toNumberEntrada1 = parseFloat(userEntrada1);
+// let toNumberEntrada2 = parseFloat (userEntrada2);
+// console.log(typeof toNumberEntrada1);
+// console.log(typeof toNumberEntrada2);
 
-let resultadoSuma = toNumberEntrada1+toNumberEntrada2;
-let resultadoResta = toNumberEntrada1-toNumberEntrada2;
-let resultadoMulti = toNumberEntrada1*toNumberEntrada2;
-let resultadoDivide = toNumberEntrada1/toNumberEntrada2;
+// let resultadoSuma = toNumberEntrada1+toNumberEntrada2;
+// let resultadoResta = toNumberEntrada1-toNumberEntrada2;
+// let resultadoMulti = toNumberEntrada1*toNumberEntrada2;
+// let resultadoDivide = toNumberEntrada1/toNumberEntrada2;
 
-document.write('<div class="div__style"><p class="p__style">' + resultadoSuma + '</p></div>');
-document.write('<div class="div__style"><p class="p__style">' + resultadoResta + '</p></div>');
-document.write('<div class="div__style"><p class="p__style">' + resultadoMulti + '</p></div>');
-document.write('<div class="div__style"><p class="p__style">' + resultadoDivide + '</p></div>');
+// document.write('<div class="div__style"><p class="p__style">' + resultadoSuma + '</p></div>');
+// document.write('<div class="div__style"><p class="p__style">' + resultadoResta + '</p></div>');
+// document.write('<div class="div__style"><p class="p__style">' + resultadoMulti + '</p></div>');
+// document.write('<div class="div__style"><p class="p__style">' + resultadoDivide + '</p></div>');
