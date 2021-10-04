@@ -94,7 +94,7 @@
     font-style: italic;
     margin-bottom: 1.2rem;
     padding: 0.6rem 0rem; 
-    border-bottom: solid 2px black;
+    border-bottom: solid 2px rgb(0, 0, 0);
   }
 .art__description{
   font-size: 1.1rem;
@@ -132,7 +132,7 @@
 }
 
 .nav-bar__list--item{
-color: white;
+color: rgb(255, 255, 255);
 }
 
 
@@ -155,7 +155,7 @@ color: white;
     background-position: center;
     height: 2.2em;
     width: 2.2em;
-    background-color:#F5F4F4;
+    background-color:rgb(245, 244, 244);
     background-size: cover;
     background-repeat: no-repeat;
     justify-self: center;
