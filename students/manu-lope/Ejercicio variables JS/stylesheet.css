@@ -1,0 +1,18 @@
+
+
+
+/* .body__style {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+} */
+
+
+.div__style {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 1rem;
+    border: 0.1rem solid rgb(95, 92, 92);
+    width: 20%;
+}
