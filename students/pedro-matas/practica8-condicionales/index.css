@@ -1,0 +1,74 @@
+.contenedor__semaforo{
+    width: 300px;
+    height: 300px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.contenedor__semaforo-verde{
+    background-color: green;
+}
+
+.contenedor__semaforo-ambar_intermitente{
+    background-color: orange;
+}
+.contenedor__semaforo-ambar_fijo{
+    background-color: yellow;
+}
+.contenedor__semaforo-rojo{
+    background-color: red;
+}
+
+.contenido__semaforo-pasar{
+    
+}
+
+.parpadea {
+  
+    animation-name: parpadeo;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  
+  }
+  
+  @keyframes parpadeo {  
+    0% { opacity: 1.0; }
+     50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+  }
+
+
+  .semaforo{
+      position: relative;
+      width: 10rem;
+      height: 35rem;
+      border: 1px;
+      background-color: black;
+      margin: 3rem;
+      padding: 2rem;
+  }
+
+.circulo{
+    width: 8rem;
+      height: 10rem;
+}
+
+  .circulo1{
+      
+      position: absolute;
+      top: 1rem;
+  }
+  .circulo2{
+      
+    position: absolute;
+    top: 12rem;
+}
+.circulo3{
+      
+    position: absolute;
+    top: 23rem;
+}
