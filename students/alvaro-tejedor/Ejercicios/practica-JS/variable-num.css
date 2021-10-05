@@ -1,0 +1,10 @@
+
+
+.container {
+    background-color: rgb(56, 55, 55);
+    width: fit-content;
+}
+
+.container p {
+    color: white;
+}
