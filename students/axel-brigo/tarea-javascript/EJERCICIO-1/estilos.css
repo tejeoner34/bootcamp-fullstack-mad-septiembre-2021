@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    width: 20%;
+    margin: 0 auto;
+    padding-top: 200px;
+
+}
+
+.container__div {
+    width: 100%;
+    background-color: red;
+    color: white;
+}
+
+.pepinillo2 {
+    color: white;
+    background-color: green;
+    width: 10%;
+}
+
+.variable {
+    color: tomato;
+    background-color: yellow;
+}
