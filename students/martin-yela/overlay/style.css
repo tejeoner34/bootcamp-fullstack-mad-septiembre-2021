@@ -1,0 +1,30 @@
+.overlay__container {
+    height: 250px;
+    width: 250px;
+    position: relative;
+}
+img {
+    height: 250px;
+    width: 250px;
+}
+.overlay__container--texto {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: 1s ease-in;
+    top:0;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.overlay__text {
+    color: white;
+    font-size: 2rem;;
+    font-weight: bold;
+
+}
+.overlay__container--texto:hover {
+    opacity: 2.5;
+}
