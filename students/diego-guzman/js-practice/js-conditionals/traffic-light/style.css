@@ -1,0 +1,51 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+} */
+.main__tittle{
+    font-size: 3.5rem;
+    color: blue;
+}
+.traffic-light{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30rem;
+    height: 30rem;
+    border-radius: 50%;
+    padding: 1em;
+}
+
+.traffic-light--text{
+    font-size: 4rem;
+}
+.green{
+    background-color: green;
+}
+
+.interAmb{
+    background-color: orange;
+}
+
+.amb{
+    background-color: orange;
+}
+
+.red{
+    background-color: red;
+}
+
+.broken{
+    background-color: red;
+
+}
+
+.traffic-light--broken{
+    /* width: 100%;
+    height: 100%; */
+    background-image:url(/stop.png);
+    /* background-size:contain;
+    background-repeat: no-repeat;
+    align-items:flex-end; */
+}
