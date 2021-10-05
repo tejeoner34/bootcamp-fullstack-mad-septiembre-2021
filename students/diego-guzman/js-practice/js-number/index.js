@@ -1,6 +1,6 @@
 let num = parseInt(prompt('enter a number'));
 
-document.write(num>=100);
+document.write('<div>'+ num>=100 + '</div>');
 
 
 
