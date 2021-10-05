@@ -65,7 +65,3 @@
 // } else {
 //     document.write (`<p class="p__style">Ha ocurrido un error contacta con el profesor</p>`)
 // }
-
-
-
-
