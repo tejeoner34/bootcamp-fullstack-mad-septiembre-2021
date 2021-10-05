@@ -3,9 +3,13 @@
     margin: 0;
     box-sizing:border-box;
 } */
+
+body{
+    background-color: black;
+}
 .main__tittle{
     font-size: 3.5rem;
-    color: blue;
+    color: white;
 }
 .traffic-light{
     display: flex;
@@ -26,6 +30,16 @@
 
 .interAmb{
     background-color: orange;
+    animation-name: intermitent;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes intermitent {
+    0% {opacity: 1.0;}
+    50% {opacity: 0.0;}
+    100% {opacity: 1.0;}
 }
 
 .amb{
