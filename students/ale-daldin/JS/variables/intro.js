@@ -1,10 +1,10 @@
 /*1.-Solicitar al usuario dos variables numéricas (usando prompt) y realizar su suma, resta multiplicación y division. Mostrar los resultados en pantalla, maquetando con flexbox debemos ver la operación ( los numeros y el operador ) y seguidos de un símbolo '=' el resultado.*/
 // String
-let operandOne = prompt('Introduce un numero');
-let operandTwo=prompt('Introduce otro numero');
+// let operandOne = prompt('Introduce un numero');
+// let operandTwo=prompt('Introduce otro numero');
 // // Conversión
-let convertOne= parseFloat(operandOne);
-let convertTwo =parseFloat(operandTwo);
+// let convertOne= parseFloat(operandOne);
+// let convertTwo =parseFloat(operandTwo);
 // // operaciones
 // let sumResult = convertOne+convertTwo;
 // let restResult= convertOne-convertTwo;
@@ -41,4 +41,14 @@ let convertTwo =parseFloat(operandTwo);
 // document.write(`<div class="concat__container--length"> Tu cantidad de caracteres en ${concatResult} es :${contactLength}`);
 
 // 5.- Volver al ejercicio 1 y mostrar por consola el tipo de datos de la variable numerica solicitada por prompt antes de ser parseada y después del parseo.
-console.log('Antes del pareseo los valores ingresados son' + ' ' + typeof(operandOne)+ ' ' + typeof(operandTwo) + ' ' + 'y luego del pareseo'+ ' ' + typeof(convertOne) + ' ' + typeof(convertTwo));
+// console.log('Antes del pareseo los valores ingresados son' + ' ' + typeof(operandOne)+ ' ' + typeof(operandTwo) + ' ' + 'y luego del pareseo'+ ' ' + typeof(convertOne) + ' ' + typeof(convertTwo));
+
+// 6.-Debemos pedir un número al usuario (por prompt). En pantalla  
+// debemos mostrar (sin usar estructras condicionales) un resultado  si el
+// número es mayor de 100 y otro diferente si es menor de 100
+
+let numb = prompt('Introduce un numero');
+let convertNumb= parseFloat(numb);
+let numbGreaterThan= convertNumb>=100;
+let numbLessThan= convertNumb<=100;
+document.write(`<div class="comparation__container"><div class="result__container">Is ${convertNumb} greater than 100?: <div class="result">${numbGreaterThan}.</div></div><div class="result__container">Is ${convertNumb} lower than 100?:<div class="result"> ${numbLessThan}.</div></div></div>`)
