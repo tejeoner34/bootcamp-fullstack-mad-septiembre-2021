@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin-top: 5px;
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.circle {
+    height: 200px;
+    width: 200px;
+    border: 2px solid yellow;
+    border-radius: 50%;
+}
+.container__green--texto {
+    text-align: center;
+    background-color: green;
+    font-size: 1.5rem;
+}
+.container__green {
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container__yellow--texto {
+    text-align: center;
+    background-color: yellow;
+    font-size: 1.5rem;
+}
+.container__yellow {
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container__yellowInter--texto {
+    text-align: center;
+    background-color: yellow;
+    font-size: 1.5rem;
+    
+}
+.container__yellow--intermitente {
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: parpadeo;
+    animation-duration: 0.8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes parpadeo {  
+    0% { opacity: 1.0; }
+     50% { opacity: -10.0; }
+    100% { opacity: 1.0; }
+  }
+
+.container__red--texto  {
+    text-align: center;
+    background-color: red;
+    font-size: 1.5rem;
+}
+.container_red {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.roto {
+    color: white;
+    font-size: 4rem;
+}
