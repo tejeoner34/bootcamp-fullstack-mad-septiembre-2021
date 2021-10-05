@@ -1,24 +1,36 @@
-.flexbox{
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .titulo{
     color:blue;
 }
 
+.container
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    gap: 1rem;
+    text-align: center;
+    font-size: 40px;
+}
+
 .bloque1{
+    display: flex;
     background-color: rgb(255, 255, 0);
     width: 350px;
     height: 350px;
+    margin-top: 2rem;
+    display: flex;
 }
 .bloque2{
+    display: flex;
     background-color: rgb(127, 255, 0);
     width: 350px;
     height: 350px;
 }
 
 .bloque3{
+    display: flex;
     background-color:	rgb(238, 130, 238);
     width: 350px;
     height: 350px;
