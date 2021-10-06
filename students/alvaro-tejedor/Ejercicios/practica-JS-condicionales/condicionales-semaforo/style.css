@@ -1,0 +1,66 @@
+
+
+
+.background {
+    background-color: paleturquoise;
+    width: fit-content;
+}
+
+.box {
+	width: 200px;
+	height: 200px;
+    font-size: 2em;
+	border: 1px solid black;
+	margin: 1em;
+	border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg_green {
+    background-color: green;
+}
+
+
+.bg_red {
+    background-color: red;
+}
+
+.bg_ambar {
+    background-color: orange;
+}
+
+.bg_ambar2 {
+    background-color: orange;
+    animation-name: parpadeo;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes parpadeo {
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+
+}
+
+
+.broken {
+    background-image: url(https://gorentalstore.com/uploads/admin/product_attachment/image/1208/Gomez-Oviedo-Alquiler-Se%C3%B1al-octogonal-STOP-60-cm.-R-2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+}
+
+.texto-broken {
+    background-color: black;
+    font-size: 0.6em;
+    padding: 5px;
+    color: white;
+}
+
+
