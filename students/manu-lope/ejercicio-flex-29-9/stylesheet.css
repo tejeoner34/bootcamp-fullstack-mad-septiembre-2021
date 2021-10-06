@@ -9,6 +9,9 @@
     font-size: 200px;
  }**/
 
+ .body {
+     display: flex;
+ }
 
 .div_order{
     border-radius: 30%;
