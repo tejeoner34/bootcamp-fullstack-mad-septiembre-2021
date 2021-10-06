@@ -68,18 +68,18 @@ si da 0 es par, si da 1 es impar.*/
  */
 
 
-for (let i=0;i<=100;i++) {
-    if (i %3===0 && i%5===0){
-        document.write(`<p>${i} es FizzBuzz</p>`);
-    }else if (i %3 === 0){
-        document.write(`<p>${i} es Fizz</p>`);
-    }else if (i %5 === 0){
-        document.write(`<p>${i} es Buzz</p>`);
-    }
-    }
+// for (let i=0;i<=100;i++) {
+//     if (i %3===0 && i%5===0){
+//         document.write(`<p>${i} es FizzBuzz</p>`);
+//     }else if (i %3 === 0){
+//         document.write(`<p>${i} es Fizz</p>`);
+//     }else if (i %5 === 0){
+//         document.write(`<p>${i} es Buzz</p>`);
+//     }
+//     }
 
 /*  EJERCICIO 5
- -Escriba por pantalla un programa que pinte el siguiente patrón en la consola del navegador: (Hard)
+-Escriba por pantalla un programa que pinte el siguiente patrón en la consola del navegador: (Hard)
 *  
 * *  
 * * *  
@@ -88,4 +88,32 @@ for (let i=0;i<=100;i++) {
 * * * *  
 * * * 
 * *
-* */
+* 
+Necesito que el programa sepa que cuando llegue a 5 empiece a descencer hacia 0. Podría hacer un `for` y decirle
+que mientras mi variable sea <=5 dibuje un + y sume uno cada vez i++, y que al llegar a 5 dibuje uno menos i--
+*/
+
+let filas;
+let asteriscos;
+let altura = 4
+let conjunto= '';
+
+    for(let filas=0; filas<=altura; filas++) {
+        conjunto = conjunto + `<p>`
+            for (let asteriscos =1; asteriscos<=filas+1; asteriscos++){
+                conjunto = conjunto + '*';
+            }
+        conjunto = conjunto + `</p>`;
+    } 
+    console.log(conjunto)
+    document.write(conjunto)
+
+
+/* EJERCICIO 6  
+- Ejercicio que calcule el valor de la sucesión de fibonacci de una variable. 
+Implementar la solución con un while (Hard)*/
+
+/* EJERCICIO 7
+Escribir un programa que solicite al usuario el número de filas y el número de columnas. 
+Dibujar una tabla con las filas y columnas introducidas. (Hard)
+ */
