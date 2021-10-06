@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #316B83;
+    display: grid;
+    grid-template-columns: 20fr 20fr 20fr 20fr 20fr 20fr;
+    grid-template-rows: 1;
+
+}
+.logo-liga {
+    height: 5em;
+    grid-column: 0/1;
+}
+.link-header {
+    text-decoration: none;
+    color: rgb(70, 67, 104);
+    font-size: 2em;
+}
+.link-1 {
+    grid-column: 4/5;
+    justify-self: center;
+    align-self: center;
+}
+.link-2 {
+    grid-column: 5/6;
+    justify-self: center;
+    align-self: center;
+}
+.link-3 {
+    grid-column: 6/7;
+    justify-self: center;
+    align-self: center;
+}
+.div-main-aside {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+
+}
+.main-container {
+    background-color: #8CA1A5;
+}
+.aside-container {
+    background-color: #6D8299;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.div-footer {
+    background-color: #D5BFBF;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr;
+    row-gap: 0.5em;
+    align-self: flex-end;
+}
+.fab {
+    font-size: 2em;
+    justify-self: center;
+    align-self: center;
+}
+.div-rights {
+    grid-column: 3/4;
+    justify-self: center;
+    align-self: flex-end;
+}
+.enlace {
+    text-decoration: none;
+    color: rgb(70, 67, 104);
+    font-size: 1.2em;
+    justify-self: center;
+    align-self: flex-start;
+}
+.enlace-interes {
+    justify-self: center;
+    align-self: flex-start;
+}
+.notice {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr 0.6fr 1fr 1.5fr;
+}
+.titular {
+    grid-row: 3/4;
+    grid-column: 1/4;
+    justify-self: center;
+    font-size: 2em;
+}
+.goal3 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    align-self: stretch;
+}
+.goal2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    align-self: stretch;
+}
+.goal1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    align-self: stretch;
+}
+.goal {
+    width: 350px;
+}
+.letra-gol1 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    align-self: stretch;
+    
+}
+.letra-gol2 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    align-self: stretch;
+}
+.letra-gol3 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    align-self: stretch;
+}
+.parrafo {
+    grid-row: 4/5;
+    grid-column: 1/4;
+    justify-self: center;
+    font-size: 1.7em;
+    text-align: center;
+}
+hr {
+    color: #316B83;
+    margin: 15px 15px;
+}
