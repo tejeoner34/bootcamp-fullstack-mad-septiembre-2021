@@ -7,15 +7,15 @@ switch (colorSemaforo){
     }break;
 
     case 'ambar_intermitente' :{
-    document.write ('<div><p>Puede continuar</p></div>');
+    document.write ('<div class="ambar"><p>Puede continuar</p></div>');
     }break;
 
     case 'ambar_fijo' :{
-        document.write ('<div><p>Debe parar</p></div>');
+        document.write ('<div class="naranja"><p>Debe parar</p></div>');
     }break;
 
     case 'rojo' :{
-        document.write ('<div><p>Debe parar</p></div>');
+        document.write ('<div class="rojo"><p>Debe parar</p></div>');
     }break;
 
     default :{
