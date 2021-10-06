@@ -24,23 +24,25 @@ img {
     padding: 10px;
     grid-column: 1/7;
     width: 100%;
-    display: flex;
-    justify-content: flex-start;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
 }
 
 .header__logo {
     width: 30%;
+    grid-column: span 1;
 }
 
 .header__logo img {
     width: 100%;
 }
 
+/* hay que poner un margen a los items del nav */
+
 .header__nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     width: 30%;
 }
 
@@ -80,9 +82,11 @@ img {
     font-size: 1.5em;
 }
 
+.main {
+    grid-column: 2/6;
+}
 
 .content {
-    grid-column: 2/6;
     width: 100%;
 }
 
@@ -115,7 +119,7 @@ img {
 
 
 .footer {
-    grid-column: span 5;
+    grid-column: span 6;
     background-color: rgb(80, 83, 87);
     display: flex;
     flex-wrap: wrap;
