@@ -5,7 +5,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-header {
+.header {
     background: #803E4E;
     display: flex;
     justify-content: space-around;
