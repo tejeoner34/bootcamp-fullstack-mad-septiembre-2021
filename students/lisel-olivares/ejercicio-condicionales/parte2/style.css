@@ -1,0 +1,33 @@
+*
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+.verde{
+    color: white;
+    background-color: green;
+    border: darkslategrey 1px;
+}
+
+.ambar{
+    color: white;
+    background-color: yellow;
+    border: darkslategrey 1px;
+}
+
+.naranja{
+    color: white;
+    background-color: orange;
+    border: darkslategrey 1px;
+}
+
+.rojo{
+    color: white;
+    background-color: red;
+    border: darkslategrey 1px;
+}
