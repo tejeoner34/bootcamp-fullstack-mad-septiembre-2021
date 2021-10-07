@@ -1,0 +1,23 @@
+.titulo1 {
+    color: red;
+}
+
+.parrafo1 {
+    font-size: 20px;
+    color: yellow;
+}
+
+.image {
+    width: 100px;
+    height: 90px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.contenedor1 {
+    width: 150px;
+    height: 150px;
+}
