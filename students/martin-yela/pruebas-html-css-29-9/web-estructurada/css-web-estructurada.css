@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cajaHeader {
+    background-color: #316B83;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.logo{
+    height: 100px;
+}
+.cajaNav {
+    background-color: #6D8299;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cajaMain {
+    background-color: #8CA1A5;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.cajaFooter {
+    background-color: #D5BFBF;
+    align-self: flex-end;
+    width: 100%;
+}
+a {
+    text-decoration: none;
+    color: rgb(70, 67, 104);
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.enlace {
+    margin: 15px;
+}
+.main-nav {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.final-text {
+    text-align: center;
+    font-size: 12px;
+}
+.fab {
+    color: #316B83;
+    transition: font-size 1s, color 1s;
+}
+.fab:hover {
+    height: 25px;
+    font-size: 150px;
+    color: blue;
+
+}
+.logo-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px 10px;
+}
+.main-one {
+    width: 80%;
+    margin-top: 20px;
+}
+.image-link {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.goal {
+    width: 275px;
+    margin-right: 10px;
+}
+.notice {
+    text-align: center;
+    margin-top: 10px;
+}
+.letra-gol {
+    font-size: 18px;
+}
+hr {
+    color: #316B83;
+    margin-top: 10px;
+}
+.enlace-interes {
+    color: rgb(20, 15, 63);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.goal-picture {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media only screen and (max-width: 685px){
+    a {
+        font-size: 18px;
+    }
+    .enlace {
+        margin: 12px;
+    }
+    .enlace-interes {
+        font-size: 14px;
+    }
+    
+}
+@media only screen and (max-width: 500px){
+    a {
+        font-size: 15px;
+    }
+    .enlace {
+        margin: 9px;
+    }
+    .goal {
+        width: 225px;
+        margin-right: 8px;
+    }
+    .enlace-interes {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    a {
+        font-size: 13px;
+    }
+    .enlace {
+        margin: 6px;
+    }
+    .goal {
+        width: 180px;
+        margin-right: 6px;
+    }
+    .enlace-interes {
+        font-size: 10px;
+    }
+
+    
+}
