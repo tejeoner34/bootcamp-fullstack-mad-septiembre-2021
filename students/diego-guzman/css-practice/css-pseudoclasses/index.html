@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A formular</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="body">
+    <h2 class="body__tittle">Please input the following information</h2>
+    <form class="body__form" action="">
+        <label class="body__label" for="form--user">We are going to validate your email</label>
+        <input required pattern=".+@.+com" id="form--user" class="form__email" type="email" placeholder="your email goes here">
+        <input type="submit" class="form__button" value="Check"></input>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+.form_main--email:hover {
+    background-color: black;
+    color: white;
+}
+
+.form_main--email:active {
+    border: 5px solid orange;
+    outline-color: orange;
+}
+.form_main--email:valid {
+    border: 5px solid green;
+    outline-color: green;
+}
+.form_main--email:invalid {
+    border: 5px solid red;
+    outline-color: red;
+}
+.form_main--email:focus {
+    border: 5px solid orange;
+    outline-color: orange;
+}
+.form_main--email:hover::-webkit-input-placeholder {
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,30 @@
+.page_container{
+    display: flex;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+.header_container{
+    width: 100px;
+    background-color: lightblue;
+    height: 50px;
+
+}
+
+.aside_container{
+
+}
+
+.main_container{
+    display: flex;
+    width: 70%;
+    background-color: lightsalmon;
+    flex-wrap: wrap;
+}
+
+.footer_container{
+    width: 100;
+    background-color: lightgreen;
+}
