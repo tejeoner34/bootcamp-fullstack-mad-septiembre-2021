@@ -6,21 +6,23 @@
 
 let tren = [];
 let contador = 0;
-for (let i =0; i<10;i++){
-    tren[i] = prompt('Este tren paso? true or false');
+const TRAIN_COUNT = 10;
+for (let i =0; i<TRAIN_RUN;i++){
+    tren[i] = prompt(`El tren ${i} paso? true or false`).toLowerCase();
     document.write(`<p>${tren[i]}</p>`);
     if (tren[tren.length-1] !== 'true' && tren[tren.length-1] !== 'false'){
         document.write('<h1>La respuesta debe ser true or false. Vuelve a empezar</h1>');
         break;
     }
 }
-for (let i=0;i<10;i++){
+for (let i=0;i<tren.length;i++){
     if (tren[i] === 'true'){
         contador += 1;
     }
 }
-if (contador >= 8){
-    document.write('Si se están cumpliendo los servicios mínimos');
+const PERCENT = Math.ceil(75*TRAIN_COUNT/100);
+if (contador >= PERCENT){
+    document.write('<h1 style="color:red">Si se están cumpliendo los servicios mínimos</h1>');
 }else {
-    document.write('No se están cumpliendo los servicios mínimos');
+    document.write('<h1 style="color:red">No se están cumpliendo los servicios mínimos</h1>');
 }
