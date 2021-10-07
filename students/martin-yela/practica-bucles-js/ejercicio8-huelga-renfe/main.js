@@ -7,8 +7,8 @@
 let tren = [];
 let contador = 0;
 for (let i =0; i<10;i++){
-    tren[tren.length] = prompt('Este tren paso? true or false');
-    document.write(`<p>${tren[tren.length-1]}</p>`);
+    tren[i] = prompt('Este tren paso? true or false');
+    document.write(`<p>${tren[i]}</p>`);
     if (tren[tren.length-1] !== 'true' && tren[tren.length-1] !== 'false'){
         document.write('<h1>La respuesta debe ser true or false. Vuelve a empezar</h1>');
         break;
