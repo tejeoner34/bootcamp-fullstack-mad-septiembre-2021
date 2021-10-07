@@ -12,7 +12,7 @@ let toNumber2 = parseInt(iDos);
 function multiplica(nUno, nDos) {
     let result = 0;
     for (let i = 1; i <= nDos; i++)
-        result += nDos;
+        result += nUno;
     return result;
 }
 
