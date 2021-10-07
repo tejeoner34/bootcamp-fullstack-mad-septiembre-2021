@@ -13,8 +13,8 @@ if(num>num2){
 
 //practica2
 
-let frase1 = parseInt(prompt('escribe la primera frase').length);
-let frase2 = parseInt(prompt('escribe la segunda frase').length);
+let frase1 = prompt('escribe la primera frase').length;
+let frase2 = prompt('escribe la segunda frase').length;
 
 if(frase1>frase2){
     document.write(`la primera frase es mayor que segunda`);
@@ -41,20 +41,20 @@ for(let i=0;i<=numero;i++){
 
 // practica 4
 
-let i=1;
+let numeromult=1;
 
-while(i<=100){
+while(numeromult<=100){
 
-    if ((i%3===0)&&(i%5===0)) {
-        document.write(`${i}<p>fizzbuzz</p>`);
-    } else if(i%3===0) {
-        document.write(`${i}<p>fizz</p>`);
-    }else if(i%5===0){
-        document.write(`${i}<p>buzz</p>`);
+    if ((numeromult%3===0)&&(numeromult%5===0)) {
+        document.write(`${numeromult}<p>fizzbuzz</p>`);
+    } else if(numeromult%3===0) {
+        document.write(`${numeromult}<p>fizz</p>`);
+    }else if(numeromult%5===0){
+        document.write(`${numeromult}<p>buzz</p>`);
     }else{
-        document.write(`${i} <p>no es multiplo ni de 3 ni de 5</p>`);
+        document.write(`${numeromult} <p>no es multiplo ni de 3 ni de 5</p>`);
     }
-    i++;
+    numeromult++;
 }
 
 
