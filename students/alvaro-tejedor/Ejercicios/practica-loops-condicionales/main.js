@@ -88,7 +88,7 @@ for(let i = 0; i < 9; i++){
     console.log(symbol[i]);
 }
 
-//ejercicio 5 con nest loop
+//ejercicio 5 con nest loop y sin document write interno.
 
 let patron = '';
 for(let i = 0; i <= 5; i++){
@@ -105,3 +105,56 @@ for(let i = 4; i > 0; i--){
 }
 
 console.log(patron);
+
+
+//ejercicio 5 con nest loop y con document write interno.
+
+for (let i=0; i<5;i++){
+    document.write('<p>');
+    for (let a = 0;a<=i;a++){
+        document.write('*');
+    }
+    document.write('</p>');
+}
+for(let i = 4; i > 0; i--){
+    document.write('<p>');
+    for(let j = i; j > 0; j--){
+        document.write('*');
+    }
+    document.write('</p>');
+}
+
+
+
+// ejercicio 6 
+
+var fib = []; //definimos un array 
+
+fib[0] = 0;// añadimos los dos primeros valores del array 
+fib[1] = 1;
+for (i = 2; i <= 10; i++) { //le damos el límite de 10 
+  fib[i] = fib[i - 2] + fib[i - 1]; // le tenemos que sumar la posición -1 y posición -2
+  console.log(fib[i]);
+}
+
+
+// ejericio 7
+
+// necesitamos dos variables para solcitar columnas y filas
+
+let column = parseInt(prompt('número de columnas'));
+let row = parseInt(prompt('número de filas'));
+
+document.write('<table border>')//tenemos que abrir la etiqueta de la tabla y la cerramos al final
+
+for(let i = 0; i < column; i++){ //definimos el bucle 
+    document.write ('<tr>'); //se tienen que abrir y cerrar la etiqueta tr dentro del loop principal
+    for(let j = 0; j< row; j ++ ){
+        document.write('<td>hola</td>'); // dentro del loop interno debemos poner los td y contenido
+    }
+    document.write('</tr>');
+}
+
+document.write('</table>');
+
+
