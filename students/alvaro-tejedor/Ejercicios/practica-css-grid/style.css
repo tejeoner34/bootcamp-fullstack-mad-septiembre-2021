@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1.5em;
+}
+
+.header {
+    background: rgb(150, 75, 75);
+    padding: 10px;
+    grid-column: 1/7;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header__logo {
+    width: 30%;
+}
+
+.header__logo img {
+    width: 100%;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+}
+
+.header__nav li {
+    list-style: none;
+}
+
+.header__nav li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+
+.side-bar {
+    background-color: rgb(180, 104, 104);
+    grid-column: span 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 200px;
+    height: fit-content;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 40px;
+    border-radius: 7%;
+}
+
+.side-bar__list li {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.side-bar__list a {
+    color: #ffffff;
+    font-size: 1.5em;
+}
+
+/* me toca empezar con el content*/
+
+.content {
+    border: solid 3px black;
+    grid-column: 2/6;
+    width: 100%;
+}
+
+.footer {
+    grid-column: span 5;
+    background-color: cornflowerblue;
+    height: 400px;
+}
