@@ -4,14 +4,6 @@
     box-sizing: border-box;
 } 
 
-a:link, a:visited, a:active {
-    text-decoration: none;
-}
-
-a:hover {
-color: rgb(255, 255, 255);
-}
-
 .body__style {
     background-color: rgb(255, 255, 255);
     display: flex;
@@ -26,33 +18,65 @@ color: rgb(255, 255, 255);
 .header__style {
     background-color:rgb(246, 216, 68);
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
     position: sticky;
     top: 0;
     padding: 0.5rem;
-    gap:1rem;
     border: solid 0.1rem #808080;
     z-index: 1;
+    margin-bottom: 1rem;
 }
-
 .header__img {
-    height: 100px;
+ max-height: 6rem;
+ margin-top: 2rem;
 }
 
+
+.link__style{
+    text-decoration: none;
+    margin-left: 2rem;
+}
+
+.link-cabecera__style:hover {
+    text-decoration: rgb(255, 255, 255);
+}
+
+.link__style:visited {
+    text-decoration: none;
+}
+
+.link__style:hover {
+color: rgb(218, 165, 32);
+}
 
 .div__container{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: center;
+    align-items: inherit;
 }
+
 .aside__style {
     display: flex;
     flex-direction: column;
     border: solid 0.1rem #808080;
     gap: 1rem;
     justify-content: flex-start;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
 }
 
+.line__style {
+    color: rgb(0, 0, 0);
+}
+
+
 .nav__style {
+    padding-right: 2rem;
+    padding-top: 2rem;
 }
 
 .ul__style {
@@ -75,14 +99,18 @@ color: rgb(255, 255, 255);
     align-items: center;
     gap: 1rem;
     height: 100%;
-    margin-top: 1rem;
     margin-bottom: 1rem;
+    z-index: 0; /**De alguna manera se me había posicionado por encima del header**/
 }
 
+.aside__style{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
 .article__style {
     border: solid 0.1rem #808080;
     border-radius: 5rem 0rem 5rem 0rem;
-    background-color: #F8F1F1;
     position: relative;
     justify-content: flex-start;
     align-items: center;
@@ -91,6 +119,7 @@ color: rgb(255, 255, 255);
     justify-content: center;
     font-size: 1em;
     padding-top: 2rem;
+    width: 40rem;
 } 
 
 .article__img {
@@ -101,6 +130,11 @@ color: rgb(255, 255, 255);
     align-self: center;
     margin-bottom: 0rem;
     margin-top: 2rem;
+    max-width: 80%;
+}
+
+.article__h1 {
+    max-width: 80%;
 }
 
 .line__style {
@@ -114,8 +148,32 @@ color: rgb(255, 255, 255);
     display: flex;
     margin-bottom: 2rem;
     margin-top: 2rem;
+    padding: 0.5rem;
+    background-color: rgb(255, 200, 62);
+    color: rgb(0, 0, 0);
+    border: rgb(201, 201, 201) solid 0.1rem;
 
 }
 .footer__style {
     border: solid 0.1rem #808080;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.div-footer__style {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.p-footer__style {
+    margin-bottom: 1rem;
+}
+
+.p-footer__IMG {
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1.5rem;
+
 }
