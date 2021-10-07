@@ -1,0 +1,74 @@
+body{
+    display: grid;
+    grid-template-rows: repeat(0.5fr,3fr,0.5fr);
+    background-color: #212121;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 1fr 2fr ;
+    background-color: #212121;
+}
+
+.nav_home{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #D9CAB3;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    background-color: #F6F6F6;
+}
+.link_nav{
+    display: grid;
+    grid-template-rows: repeat(6,1fr);
+   
+}
+.articulos{
+    display: grid;
+    grid-template-rows: 3fr 1fr 1fr 2fr 1fr;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    background-color: burlywood;
+}
+.imagen_icon{
+    height: 5rem;
+    width: 5rem;
+}
+
+.icon_conjunto{
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.div_horizontal-line{
+    width: 50%;
+    height: 1%;
+            
+            border-top: solid ;
+            background-color: violet;
+  }
+
+  .imagen{
+   
+  }
+
+  .aside{
+    background-color: #D9CAB3;
+  }
+
+  .navlink_in{
+    list-style:none;
+  }
