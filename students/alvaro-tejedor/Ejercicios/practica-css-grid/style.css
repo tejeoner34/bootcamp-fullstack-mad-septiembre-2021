@@ -4,15 +4,27 @@
     box-sizing: border-box;
 }
 
+.body {
+    height: 100vh;
+    position: relative;
+}
+
+
 a {
     text-decoration: none;
+}
+
+img {
+    width: 100%;
 }
 
 .container {
     display: grid;
     width: 100%;
+    height: 100%;
     grid-template-columns: repeat(5, 1fr);
     gap: 1.5em;
+    position: relative;
 }
 
 .header {
@@ -20,28 +32,35 @@ a {
     padding: 10px;
     grid-column: 1/7;
     width: 100%;
-    display: flex;
-    justify-content: flex-start;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
 }
 
 .header__logo {
     width: 30%;
+    min-width: 130px;
+    grid-column: span 1;
+
 }
 
 .header__logo img {
     width: 100%;
 }
 
+/* hay que poner un margen a los items del nav */
+
 .header__nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     width: 30%;
 }
 
 .header__nav li {
     list-style: none;
+    margin: 1em;
+
+    
 }
 
 .header__nav li a {
@@ -76,16 +95,95 @@ a {
     font-size: 1.5em;
 }
 
-/* me toca empezar con el content*/
+.main {
+    grid-column: 2/6;
+    grid-row: span 3;
+    height: 70%;
+}
 
 .content {
-    border: solid 3px black;
-    grid-column: 2/6;
     width: 100%;
 }
 
+.content__article {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 1px gray;
+    width: 100%;
+}
+
+.content__img {
+    width: 20%;
+    min-width: 250px;
+    order: 2;
+}
+
+.content__item {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1em;
+    text-align: center;
+}
+
+
 .footer {
-    grid-column: span 5;
-    background-color: cornflowerblue;
-    height: 400px;
+    grid-column: span 6;
+    background-color: rgb(80, 83, 87);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.footer__item {
+    border-radius: 50%;
+    background-color: white;
+    width: 5%;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 3em;
+}
+
+.footer__item img {
+    object-fit: contain;
+}
+
+@media (max-width: 750px){
+    .header {
+        flex-direction: column;
+    }
+
+
+    .header__logo {
+        width: 40%;
+    }
+}
+
+@media (max-width: 540px){
+    .side-bar {
+        display: none;
+    }
+
+    .content {
+        grid-column: span 5;
+    }
+
+    .main {
+        grid-column: span 6;
+    }
+
+    .content__item {
+        width: 90%;
+    }
 }
