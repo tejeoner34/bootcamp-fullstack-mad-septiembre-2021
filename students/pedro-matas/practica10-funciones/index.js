@@ -127,22 +127,22 @@ document.write(`<p></p>`);
 
 // ejercicio 6.2
 
-let numReves=prompt('escribe el numero');
+// let numReves=prompt('escribe el numero');
 
-function invertir(numReves) {
-    let lon = numReves.length;
-    let cadenaInvertida = "";
+// function invertir(numReves) {
+//     let lon = numReves.length;
+//     let cadenaInvertida = "";
   
-    while (lon>=0) {
-      cadenaInvertida = cadenaInvertida + numReves.charAt(lon);
-      lon--;
-    }
-    return cadenaInvertida;
-  }
+//     while (lon>=0) {
+//       cadenaInvertida = cadenaInvertida + numReves.charAt(lon);
+//       lon--;
+//     }
+//     return cadenaInvertida;
+//   }
 
-  document.write(invertir(numReves));
+//   document.write(invertir(numReves));
 
-document.write(`<p></p>`);
+// document.write(`<p></p>`);
 
 
 // ejercicio 7
@@ -317,7 +317,8 @@ let letraDni=['T','R','W','A','G','M','Y','F','P','D','X','B','N','J','Z','S','Q
 
 function dni(nif){
     let i=0;
-    letra = toUpperCase(nif.charAt(8));
+    letra = nif.charAt(nif.length-1);
+    letra=letra.toUpperCase();
     cadenaNum=nif.substr(0,8);
    cadenaNum= parseInt(cadenaNum);
    cadenaNum= cadenaNum%23;
