@@ -4,7 +4,7 @@
 //       Repetir el proceso pero con propiedades que tengan los tipos de datos 
 //       string, boolean, null, undefined , array, function, objects. 
 //       Al terminar utilizar el operador "delete" para borrar la propiedad de 
-//       cada uno de los objetos creados. Mostrar la propiedad y el objeto por consola.
+//       cada uno de los objetos creados. Mostrar la propiedad y el objeto por consolagi.
 
 let helloWorld = {
     number: 10,
