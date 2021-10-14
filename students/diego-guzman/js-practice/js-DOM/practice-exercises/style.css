@@ -1,3 +1,8 @@
+/* .page__container{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
 .card__container{
     display: flex;
     flex-direction: column;
@@ -25,4 +30,4 @@
 }
 .li__item{
     margin: 0.5em 0em;
-}
+} */
