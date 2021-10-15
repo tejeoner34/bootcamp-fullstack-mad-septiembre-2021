@@ -1,0 +1,10 @@
+.container__let {
+    background-color: blue;
+}
+.container__operacion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    font-size: 5rem;
+}
