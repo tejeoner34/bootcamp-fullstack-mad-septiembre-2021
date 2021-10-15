@@ -44,8 +44,6 @@ if(sessionStorage.getItem('age') !== null){
     const divContainer = querySelector('[data-info-container]');
     divContainer.innerHTML
 
-
-
 }
 
 
