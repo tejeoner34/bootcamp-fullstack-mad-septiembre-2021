@@ -1,0 +1,5 @@
+.container__operaciones{
+    display: flex;
+    background-color: lightseagreen;
+    font-size: 2rem;
+}

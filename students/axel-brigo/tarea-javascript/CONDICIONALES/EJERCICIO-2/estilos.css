@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div_verde {
+    background-color: green;
+}
+
+.div_amarillo_intermitente {
+    background-color: rgb(249, 253, 4);
+    animation: blinkingBackground 1s infinite;
+    padding: 20px;
+}
+
+@keyframes blinkingBackground {
+    0% {
+        background-color: #ffffff;
+    }
+
+    25% {
+        background-color: #ffee00;
+    }
+
+    ;
+
+    50% {
+        background-color: #ffffff;
+    }
+
+    ;
+
+    75% {
+        background-color: #eeff00;
+    }
+
+    ;
+}
+
+
+
+
+
+.div_amarillo_fijo {
+    background-color: rgb(251, 255, 0);
+}
+
+.div_rojo {
+    background-color: rgb(128, 0, 0);
+}
+
+.parrafo {
+    color: white;
+    padding: 15px;
+}
+
+.div_random {
+    border-radius: 50%;
+    background-color: red;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    -webkit-animation-name: shake;
+    animation-name: shake;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes shake {
+
+    0%,
+    100% {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        -webkit-transform: translate3d(-10px, 0, 0);
+        transform: translate3d(-10px, 0, 0);
+    }
+
+    20%,
+    40%,
+    60%,
+    80% {
+        -webkit-transform: translate3d(10px, 0, 0);
+        transform: translate3d(10px, 0, 0);
+    }
+}
+
+@keyframes shake {
+
+    0%,
+    100% {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        -webkit-transform: translate3d(-10px, 0, 0);
+        transform: translate3d(-10px, 0, 0);
+    }
+
+    20%,
+    40%,
+    60%,
+    80% {
+        -webkit-transform: translate3d(10px, 0, 0);
+        transform: translate3d(10px, 0, 0);
+    }
+}
+
+.parrafo0 {
+    justify-content: center;
+    font-size: 2.5em;
+
+}

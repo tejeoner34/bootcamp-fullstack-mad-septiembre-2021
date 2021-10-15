@@ -1,0 +1,85 @@
+
+
+
+.header {
+    position: sticky;
+    top: 0;
+    background-color: #fffff0;
+}
+
+.header_img {
+    height: 59px;
+    width: 262px;
+}
+
+.link_style {
+    text-decoration: none;
+    color: black;
+}
+
+.link_style_secondary {
+    text-decoration: none;
+    font-size: 30px;
+    color: blanchedalmond;
+}
+
+/**.link_style :hover {
+    text-decoration: none;
+    color: orange;   
+}**/
+
+.body {
+	background: #fffff0;
+}
+
+.class_div_1 {
+    margin: 40px;
+    background: fixed;
+    background-color: rgba(193, 219, 251, 1);
+    border: solid;
+    border-color: rgb(106, 175, 244);
+    border-radius: 0px 40px 3px 4px;
+    box-shadow: 5px 5px 1px 1px rgba(171, 176, 232, 0.983);
+    height: 150px;
+    width: 150px;
+    
+}
+.class_div_2 {
+    margin: 40px;
+    height: 300px;
+    width: 100px;
+    border-style:double;
+    border-color: rgb(246, 213, 3);
+    border-radius: 0px 0px 30px 0px;
+    box-shadow: 5px 20px 10px 2px rgba(255, 195, 111, 0.867);
+    background:linear-gradient(rgb(246, 213, 3), white)
+
+}
+
+.class_div_3 {
+    margin: 40px;
+    height: 450px;
+    width: 450px;
+    border: solid;
+    border-color: rgb(25, 154, 77);
+    background-image: url(https://www.rughara.com/wp-content/uploads/2021/09/comicperrito.jpg);
+    background-size: contain;
+    text-shadow: 3px 3px 3px hotpink;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(255, 200, 200);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.div_rrss {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+
+}
+
+.footer {
+    height: 100px;
+    width: 100%;
+    background-color:rgb(255, 242, 101) ;    
+}

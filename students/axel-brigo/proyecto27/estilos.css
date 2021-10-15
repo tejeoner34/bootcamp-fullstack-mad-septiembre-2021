@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(255, 255, 254);
+    height: 150px;
+    /*IMPORTANTE*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+
+}
+
+.label__contenedor--email {
+    background: rgb(25, 225, 252);
+    color: white;
+    width: 200px;
+    margin-top: 500px;
+    text-align: center;
+}
+
+.input__class--email:valid {
+    border: 5px solid green;
+}
+
+.input__class--email:invalid {
+    border: 5px solid rgb(255, 0, 0);
+}
+
+.input__class--email:focus {
+    border: 5px solid orange;
+}
+
+.input__class--email:active {
+    border: 5px solid orange;
+}

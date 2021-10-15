@@ -1,0 +1,20 @@
+*
+.email{
+
+}
+.email:valid{
+    border: 2px solid green;
+}
+
+.email:invalid{
+    border: 2px solid red;
+}
+.email:hover{
+    background-color: black;
+    color: white;
+}
+
+.email:focus{
+    border: solid 3px orange;
+}
+
