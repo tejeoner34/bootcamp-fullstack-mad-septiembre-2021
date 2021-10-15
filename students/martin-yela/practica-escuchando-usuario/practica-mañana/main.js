@@ -3,7 +3,7 @@
 // 3. Modificar el ejercicio 2 para que cuando el usuario refresque la página, el p se inicialice con el valor que había dejado antes
 
 let contador = 0;
-document.querySelector('button').addEventListener('click', function() {
+document.querySelector('button').addEventListener('click', () => {
     contador += 1;
     let prueba = document.createElement('p');
     prueba.textContent += `Añadir frase ` + contador;

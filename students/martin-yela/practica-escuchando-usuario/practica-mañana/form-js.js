@@ -26,7 +26,7 @@ if (localStorage.getItem('hobby')!== null) {
 
 
 
-let array = document.querySelectorAll('#test__input') ;
+let array = document.querySelectorAll('input') ;
 let boton = document.querySelector('#test__btn');
 
 boton.addEventListener('click', function(){
