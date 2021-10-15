@@ -16,12 +16,12 @@ if (lectura !== null) {
 
 botonSumar.addEventListener('click', e => {
     botonResultado.textContent = parseInt(botonResultado.textContent) + 1;  //el parseInt lo pasa a numero ya que era string 
-    localStorage.setItem('clave', parseInt(botonResultado.textContent));
+    localStorage.setItem('clave', (botonResultado.textContent));
 })
 
 botonRestar.addEventListener('click', e => {
     botonResultado.textContent = botonResultado.textContent - 1;
-    localStorage.setItem('clave', parseInt(botonResultado.textContent));
+    localStorage.setItem('clave', (botonResultado.textContent));
 })
 
 //3. Modificar el ejercicio 2 para que cuando el usuario refresque la página,
