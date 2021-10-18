@@ -1,9 +1,10 @@
+const liDom = document.getElementsByTagName('LI');
+
 
 // creación función para evitar repetir el crear los elementos en el DOM
 contadordiv = 0;
 function updateDom (tarea, comentario){
-    const div = document.createElement('div');
-    div.classList.add('div-check' + contadordiv);
+
 
 
     const h3Dom = document.createElement('li');
@@ -12,48 +13,31 @@ function updateDom (tarea, comentario){
     h3Dom.classList.add('item');
     h3Dom.textContent = `${tarea}: ${comentario}`;
 
-    // const check = document.createElement('input');
-    // check.setAttribute('type', 'checkbox');
-    // check.setAttribute('name', 'checkbox');
 
-    
-
-
-    // const pDom = document.createElement('li');
-    // pDom.classList.add('li-comentario');
-    // pDom.classList.add('item');
-    // pDom.textContent = comentario;
-
-    // const divImg = document.createElement('div');
-    // divImg.classList.add('divImg');
-    // divImg.classList.add('item');
-    // document.querySelector('.check__list--img').appendChild(divImg);
 
 
     const checkContainerDom = document.querySelector('.check__container');
-    // const divCheck = document.createElement('div');
-    // divCheck.classList.add('check__container--subcontainer');
-    // checkContainerDom.appendChild(divCheck);
-    document.querySelector('.check__list--img').appendChild(div);
-    // document.querySelector('.div-check' + contadordiv).appendChild(check);
-    document.querySelector('.div-check' + contadordiv).appendChild(h3Dom);
+    document.querySelector('.check__list--img').appendChild(h3Dom);
+    const spanDom = document.createElement('SPAN');
+    spanDom.classList.add('close');
+    const spanText = document.createTextNode('\u00D7');
+    spanDom.appendChild(spanText);
+    h3Dom.appendChild(spanDom);
     contadordiv ++;
-    
-    
 
 }
 
 let contador = 0;
+
+// quermos que nos devuelva el valor en el session storage
 
 if(sessionStorage.getItem(`tarea${contador}`) !== null){
     const storedTareaValue = sessionStorage.getItem(`tarea${contador}`);
     const storedComentarioValue = sessionStorage.getItem(`comentario${contador}`);
 
     updateDom(storedTareaValue,storedComentarioValue);
-    
-    
-
 }
+
 
 
 // añadir un signo check cuando cliclamos en el li
@@ -65,7 +49,16 @@ ulDom.addEventListener('click', e => {
     }
 })
 
-const liDom = document.getElementsByTagName('LI');
+
+// aquí estoy
+const xButton = document.querySelector('close').addEventListener('click', e => {
+    const contenedor = this.parentElement;
+    contenedor.style.display = 'none';
+    
+})
+
+
+
 
 
 // guardamos e imprimimos lo que escribimos en el form
@@ -83,6 +76,9 @@ document.querySelector('.form__container').addEventListener('submit', e => {
     updateDom(inputTarea.value,inputComentario.value);
     contador ++;
     console.log(e);
+
+    
     
 })
+
 
