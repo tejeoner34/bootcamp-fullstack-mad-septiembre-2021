@@ -23,6 +23,19 @@ function updateDom (tarea, comentario){
     const spanText = document.createTextNode('\u00D7');
     spanDom.appendChild(spanText);
     h3Dom.appendChild(spanDom);
+
+
+
+    
+    // aquí estoy
+    const close = document.getElementsByClassName('close');
+    let i;
+    for(i =0; i< close.length; i++){
+        close[i].onclick = function (){
+            let contenedor = this.parentElement;
+            contenedor.style.display = 'none';
+        }
+    }
     contadordiv ++;
 
 }
@@ -50,14 +63,6 @@ ulDom.addEventListener('click', e => {
 })
 
 
-// aquí estoy
-const xButton = document.querySelector('close').addEventListener('click', e => {
-    const contenedor = this.parentElement;
-    contenedor.style.display = 'none';
-    
-})
-
-
 
 
 
@@ -75,10 +80,14 @@ document.querySelector('.form__container').addEventListener('submit', e => {
 
     updateDom(inputTarea.value,inputComentario.value);
     contador ++;
-    console.log(e);
+    inputComentario.value = '';
+    inputTarea.value = '';
+})
+
+
 
     
     
-})
+    
 
 
