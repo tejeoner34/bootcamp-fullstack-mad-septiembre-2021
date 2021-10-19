@@ -1,0 +1,18 @@
+
+
+
+@keyframes bounce{
+    0% { top: 0; }
+    50% { top: -3em; }
+    70% { top: -3em; }
+    100% { top: 0; }
+  }
+
+.bounce {
+    transform-origin: 50% 50%;
+  animation: bounce 0.5s infinite linear;
+  position: relative;
+  display: inline-block;
+  width: 300px;
+  margin-top: 200px;
+}

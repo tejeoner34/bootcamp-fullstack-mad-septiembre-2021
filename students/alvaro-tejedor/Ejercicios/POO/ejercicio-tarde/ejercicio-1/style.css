@@ -1,0 +1,23 @@
+.imgDivPerro {
+    background-image: url('https://www.collinsdictionary.com/images/full/dog_230497594.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 400px;
+}
+
+.imgDivGato {
+    background-image: url('https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/gallery/594a1ced5bafe85dfd3c9869/gato-romano_0.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 400px;
+}
+
+.imgDivGallina {
+    background-image: url('https://st.depositphotos.com/1526816/2124/v/600/depositphotos_21243767-stock-illustration-a-hen-and-her-seven.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 400px;
+}
