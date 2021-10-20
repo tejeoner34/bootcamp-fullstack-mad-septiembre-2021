@@ -27,7 +27,6 @@ function updateDom (tarea, comentario){
 
 
     
-    // aquí estoy
     const close = document.getElementsByClassName('close');
     let i;
     for(i =0; i< close.length; i++){
@@ -45,10 +44,19 @@ let contador = 0;
 // quermos que nos devuelva el valor en el session storage
 
 if(sessionStorage.getItem(`tarea${contador}`) !== null){
-    const storedTareaValue = sessionStorage.getItem(`tarea${contador}`);
-    const storedComentarioValue = sessionStorage.getItem(`comentario${contador}`);
+    // const storedTareaValue = sessionStorage.getItem(`tarea${contador}`);
+    // const storedComentarioValue = sessionStorage.getItem(`comentario${contador}`);
+    function allStorage() {
 
-    updateDom(storedTareaValue,storedComentarioValue);
+        var values = [],
+            keys = Object.keys(sessionStorage);
+            values.push(keys);
+    
+        return document.write(values);
+    }
+    allStorage();
+
+    // updateDom(storedTareaValue,storedComentarioValue);
 }
 
 
