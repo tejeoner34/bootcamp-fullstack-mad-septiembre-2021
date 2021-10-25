@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(173, 164, 164);
+}
+
+.header__div--img{
+    width: 20%;
+}
+
+.header__div--img img {
+    width: 100%;
+}
