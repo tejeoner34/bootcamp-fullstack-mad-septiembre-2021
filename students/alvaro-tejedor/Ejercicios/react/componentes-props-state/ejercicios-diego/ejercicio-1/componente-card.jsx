@@ -8,8 +8,7 @@ class Card extends React.Component{
     render(){
         return(
            
-            
-            <div className={this.props.flip}>
+            <div className={`card ` + this.props.flip}>
                 <div className={'div-img'}>
                     <img className={'img'} src="./pexels-carolina-castilla-arias-1716861.jpg" alt="" />
                 </div>
@@ -22,5 +21,4 @@ class Card extends React.Component{
         )
     }
 }
-
 
