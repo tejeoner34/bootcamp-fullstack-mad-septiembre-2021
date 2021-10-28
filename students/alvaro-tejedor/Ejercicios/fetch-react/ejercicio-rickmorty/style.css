@@ -1,0 +1,63 @@
+
+
+body{
+    width: 100%;
+    background-color: black;
+}
+
+.searchbar-container{
+    width: 50%;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.card{
+    display: flex;
+    justify-content: flex-start;
+    gap: 2rem;
+    align-items: center;
+    border: 1px solid black;
+    width: 500px;
+    height: 200px;
+    padding: 1rem;
+    background-color: rgb(46, 46, 46);
+    color: white;
+}
+
+.img-div{
+    width: 200px;
+    height: 200px;
+}
+
+.img-div img {
+    width: 100%;
+}
+
+.gender {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.Male{
+    height: 15px;
+  width: 15px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: -2px;
+}
+
+.Female {
+    height: 15px;
+  width: 15px;
+  background-color: green;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: -2px;
+}
