@@ -1,8 +1,8 @@
 class DataCiudad extends React.Component{
     constructor(){
         super();
-        this.state = {
-            data : [
+        
+            this.data = [
                 {
                     "city": "Álava",
                     "population": 321932,
@@ -33,16 +33,12 @@ class DataCiudad extends React.Component{
                     "population": 1062000,
                 "utf":"Asturias"
                 }
-            ],
-
-
+            ]
 
         }
+    
 
-        const dataFinal = JSON.parse(this.state.data);
-        this.setState({data: dataFinal})
 
-    }
 
     render(){
         return(

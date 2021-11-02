@@ -16,15 +16,20 @@ class Data extends React.Component {
         console.log(this.state.dataOriginal)
     }
 
+    normalizeString(cityName){ //creamos una funcion para normalizar el string (quitar los acentos)
+        return cityName.normalize("NFD").replace(/[\u0300-\u036f]/g, "") // se utiliza la función de .normalize 
+
+    }
+
     filtrador(e){
-        const item = e.target.value.toLowerCase();
-        const filteredData = this.state.dataOriginal.filter(i=> i.city.toLowerCase().includes(item))
+        const item = this.normalizeString(e.target.value.toLowerCase());
+        const filteredData = this.state.dataOriginal.filter(i=>this.normalizeString(i.city).toLowerCase().includes(item))
         this.setState({data: filteredData});
         console.log(this.state.data)
     }
 
     filtradorPoblacion(q){
-        const quantity = q.target.value;
+        const quantity = parseInt(q.target.value); //parseamos el value porque es un string
         const filteredPopulation = this.state.dataOriginal.filter(i=> i.population < quantity);
         this.setState({data: filteredPopulation});
         console.log(quantity)
