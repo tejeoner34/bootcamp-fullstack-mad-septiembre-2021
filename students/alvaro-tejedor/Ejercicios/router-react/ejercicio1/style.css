@@ -1,0 +1,62 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: salmon;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3rem;
+
+}
+
+.header__img-container{
+    width: 10%;
+}
+
+.header__img {
+    width: 100%;
+}
+
+.header__list {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.main{
+    width: 100%;
+    display: flex;
+}
+
+.section{
+    width: 80%;
+    height: 500px;
+    background-color: blue;
+}
+
+.aside{
+    width: 20%;
+    height: 300px;
+    background-color: coral;
+}
+
+.footer{
+    width: 100%;
+    background-color: black;
+    height: 200px;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    
+}
